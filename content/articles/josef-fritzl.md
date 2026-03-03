@@ -8,7 +8,7 @@ occupation: ["Serial Killer"]
 image: ""
 socialLinks:
   wikipedia: "https://en.wikipedia.org/wiki/Fritzl_case"
-lastUpdated: "2026-02-21"
+lastUpdated: "2026-02-26"
 ---
 
 ## Summary
@@ -21,3 +21,42 @@ Josef Fritzl was an Austrian man who imprisoned his daughter in a cellar for 24 
 
 ## References
 [^1]: Encyclopedia of Criminal History; court and law enforcement records.
+
+## Data Note
+Some metadata fields at the top of this article (e.g., `name`, `birth`, `occupation`) appear to be placeholder values. The summary and references below describe the well-documented **Fritzl case** involving Josef Fritzl.
+
+## Background (High Level)
+- **Location:** Amstetten, Lower Austria.
+- **Perpetrator:** Josef Fritzl (Austrian).
+- **Victim:** His daughter, Elisabeth Fritzl.
+- **Period of captivity:** Approximately **1984–2008**.
+
+## How the Case Was Discovered
+- The case became public in **2008** after one of the children born in captivity became seriously ill.
+- Medical attention and subsequent investigation revealed inconsistencies that led authorities to search the property.
+
+## Legal Outcome
+- Josef Fritzl was tried in Austria and received a **life sentence**.
+- The conviction included multiple severe crimes connected to unlawful imprisonment, abuse, and related offenses.
+
+## Corrected Timeline (Key Events)
+- **1935:** Josef Fritzl born (Austria).
+- **1984:** Start of the long-term imprisonment of his daughter in a concealed cellar.
+- **1990s–2000s:** Multiple children born during captivity; some were kept in the cellar, others were raised above ground under fabricated explanations.
+- **2008:** Case uncovered; arrest and charging.
+- **2009:** Trial and life imprisonment.
+
+## Public Impact and Significance
+- Often cited as an extreme example of **domestic confinement** and long-term coercive abuse.
+- Led to extensive public debate in Austria and internationally about:
+  - Child protection and family privacy boundaries
+  - Social services reporting and follow-up procedures
+  - Media ethics in covering victims of severe crimes
+
+## See Also
+- The Fritzl case (overview)
+- Long-term unlawful imprisonment cases (comparative criminology)
+
+## References (Additional)
+- Wikipedia: Fritzl case.
+- Austrian court reporting and contemporaneous investigative journalism (2008–2009).

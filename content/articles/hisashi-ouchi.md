@@ -8,7 +8,7 @@ occupation: ["Radiation Victim"]
 image: ""
 socialLinks:
   wikipedia: "https://en.wikipedia.org/wiki/Hisashi_Ouchi"
-lastUpdated: "2026-02-21"
+lastUpdated: "2026-02-26"
 ---
 
 ## Summary
@@ -24,3 +24,40 @@ Japanese nuclear worker who received the highest recorded radiation dose in the 
 ## References
 
 [^1]: Wikipedia, "Hisashi Ouchi" - https://en.wikipedia.org/wiki/Hisashi_Ouchi
+
+## Background
+
+- Hisashi Ouchi (大内 久) was a Japanese nuclear fuel processing worker.
+- He is most widely known in connection with the **1999 Tokaimura nuclear criticality accident** in Ibaraki Prefecture, Japan.
+
+## Tokaimura criticality accident (1999)
+
+- The accident occurred at a uranium fuel processing facility in Tokaimura.
+- A **criticality event** is an unintended, self-sustaining nuclear chain reaction; it can produce intense bursts of ionizing radiation.
+- Public reporting and official investigations described a serious exposure affecting multiple workers and prompting emergency response actions.
+
+## Medical course (high-level)
+
+- Ouchi received an exceptionally large radiation dose relative to typical industrial or medical exposures.
+- He was transferred to medical facilities for specialized care following the incident.
+- Accounts emphasize the extraordinary clinical challenges associated with severe acute radiation syndrome.
+
+## Historical significance
+
+- The Tokaimura accident became a major case study in nuclear safety, process control, and emergency preparedness.
+- It contributed to scrutiny of:
+  - operational procedures and training,
+  - oversight and regulatory compliance,
+  - incident response planning and communication.
+
+## Key facts (at a glance)
+
+- **Country:** Japan
+- **Event:** Tokaimura nuclear accident (1999)
+- **Notability:** Widely cited as involving the highest recorded radiation dose received by a person in a single accident.
+
+## See also
+
+- Tokaimura nuclear accident
+- Criticality accident
+- Nuclear safety and regulation in Japan

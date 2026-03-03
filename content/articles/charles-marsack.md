@@ -8,7 +8,7 @@ occupation: ["Colonial Criminal"]
 image: ""
 socialLinks:
   wikipedia: "https://en.wikipedia.org/wiki/Charles_Marsack"
-lastUpdated: "2026-02-21"
+lastUpdated: "2026-02-26"
 ---
 
 ## Summary
@@ -24,3 +24,33 @@ Colonial judge accused of harsh and racially biased sentencing in Western Samoa.
 ## References
 
 [^1]: Wikipedia, "Charles Marsack" - https://en.wikipedia.org/wiki/Charles_Marsack
+
+## Disambiguation / Data Quality Notes
+
+- The linked Wikipedia page titled **"Charles Marsack"** currently describes an **East India Company army officer and landowner** (18th–19th century), not a 20th-century colonial-era jurist in Samoa.
+- This suggests the present article may be mixing identities (or the Wikipedia link may be intended for a different person). The fields below summarize what the Wikipedia page states *as of 2026-03-01*.
+
+## Wikipedia (linked page) — High-Level Profile (as of 2026-03-01)
+
+- **Lifespan:** 1747/8 – 22 December 1820 (with discussion on the page about uncertain birth-year claims).
+- **Career:** Entered India around 1760 as an Ensign with the East India Company; later associated with Oudh and served in cavalry for the Nabob of Oudh; later returned to England as "Major Marsack".
+- **Notable episode:** The page states he was expelled from Oudh by Warren Hastings in 1782 and later gave evidence against Hastings.
+- **Land/estate:** Purchased **Caversham Park** after returning to England and is described as restoring/enlarging the house; later served as High Sheriff of Oxfordshire (1787).
+- **Family:** The page lists a marriage (1783) and multiple children; it also notes later disposition of the Caversham estate.
+
+## What This Article Currently Claims (Unverified)
+
+- **Nationality/period:** "Samoa" and a 20th-century lifespan (1920–1990).
+- **Role:** "Colonial Criminal" and "Colonial judge" (wording implies colonial administration and judicial activity in Western Samoa).
+- **Controversy:** "Harsh and racially biased sentencing" (requires a reliable citation beyond the current single link).
+
+## Open Questions for Future Cleanup
+
+- Is this page intended to cover a Samoa-related jurist with the same/similar name, or should it be retitled to avoid confusion with the East India Company figure?
+- If the Samoa-related figure exists, what primary/secondary sources (court records, newspapers, academic histories) support the career and controversy claims?
+
+## See Also
+
+- Warren Hastings (context for the Wikipedia-linked figure)
+- East India Company (military/administrative context)
+- Caversham Park (estate referenced on the Wikipedia-linked page)

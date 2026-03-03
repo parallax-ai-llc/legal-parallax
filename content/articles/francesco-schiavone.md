@@ -8,7 +8,7 @@ occupation: ["Camorra Boss"]
 image: ""
 socialLinks:
   wikipedia: "https://en.wikipedia.org/wiki/Francesco_Schiavone"
-lastUpdated: "2026-02-21"
+lastUpdated: "2026-02-26"
 ---
 
 ## Summary
@@ -21,3 +21,44 @@ Francesco 'Sandokan' Schiavone was the boss of the Casalesi clan of the Camorra 
 
 ## References
 [^1]: Encyclopedia of Criminal History; court and law enforcement records.
+
+## Background
+- Francesco Schiavone (nickname **"Sandokan"**) was a leading figure of the **Casalesi clan**, a major Camorra organization based around **Casal di Principe** (province of Caserta, Campania).
+- The Casalesi are often described as one of the most influential Camorra groups, with activities extending beyond Campania through alliances, intimidation, and control of local economic sectors.
+
+## Role in the Casalesi clan
+- Schiavone is widely reported as a top boss during the clan’s expansion in the late 20th century.
+- Accounts in open sources connect the clan’s power to:
+  - **territorial control** and systematic extortion (pizzo)
+  - **drug trafficking** and logistics networks
+  - infiltration of **construction / procurement** and other local business ecosystems
+  - violent enforcement, including internal discipline and intimidation of rivals
+
+## Law enforcement actions and imprisonment
+- **Arrest (1998):** Schiavone was captured in 1998 after years as a fugitive.
+- **Sentence:** He received a **life sentence** in Italy (reported in multiple summaries of Camorra prosecutions).
+- His case is frequently cited in discussions of sustained Italian anti-mafia efforts that combined investigation, witness cooperation (pentiti), and large-scale prosecutions.
+
+## Career Timeline (expanded)
+| Year | Event |
+|------|-------|
+| 1953 | Born in Italy (Campania region context; Caserta area commonly cited). |
+| 1970s–1980s | Rise of Camorra factional conflicts; Casalesi consolidation period in broader reporting. |
+| 1990s | Casalesi described in Italian media as among the most powerful Camorra clans. |
+| 1998 | Captured by Italian authorities after a period of hiding. |
+| 1998–2000s | Major Camorra investigations and trials intensify; Casalesi leadership targeted. |
+| 2000s–2010s | Clan remains subject to significant prosecutions; leadership succession handled amid arrests. |
+
+## Why he is notable
+- Schiavone’s name appears in many overviews of modern Italian organized crime because the Casalesi clan is often treated as a reference case for:
+  - how a territorial criminal group can become a **regional economic power**
+  - the use of violence and intimidation to shape local governance and markets
+  - the long-running nature of anti-mafia judicial processes (investigation → trial → conviction)
+
+## See also
+- Camorra
+- Casalesi clan
+- Organized crime in Italy
+
+## Additional references
+- Wikipedia: Francesco Schiavone — https://en.wikipedia.org/wiki/Francesco_Schiavone

@@ -8,7 +8,7 @@ occupation: ["Crypto Criminal"]
 image: ""
 socialLinks:
   wikipedia: "https://en.wikipedia.org/wiki/Alexey_Pertsev"
-lastUpdated: "2026-02-21"
+lastUpdated: "2026-02-26"
 ---
 
 ## Summary
@@ -20,6 +20,43 @@ Tornado Cash developer convicted in Netherlands of money laundering via the cryp
 | Year | Event |
 |------|-------|
 | 2024 | Convicted of money laundering |
+
+## Additional Context
+
+### What Tornado Cash Is (high-level)
+
+- **Tornado Cash** is a set of smart contracts and interfaces designed to provide **transaction privacy** on public blockchains by breaking the direct on-chain link between deposit and withdrawal.
+- The service is commonly described as a **crypto “mixer”** because it can obscure transaction trails that would otherwise be transparent.
+- Privacy tools can have legitimate uses (e.g., protecting financial privacy), but they are also frequently cited by regulators as being used for **laundering proceeds of crime**.
+
+### Legal and Policy Context
+
+- Tornado Cash became a major focus of regulators and law enforcement as blockchain analytics matured and high-profile thefts increasingly involved mixers.
+- In this context, software developers associated with privacy tooling have faced questions about:
+  - **Responsibility** for downstream use of deployed code
+  - The difference between **publishing software** and **operating a service**
+  - How to apply traditional money-laundering frameworks to **decentralized** or **open-source** systems
+
+### Case Notes (factual, high-level)
+
+- Pertsev is widely reported as a **developer associated with Tornado Cash** and as having been **prosecuted in the Netherlands** in connection with money-laundering allegations tied to the mixer’s usage.
+- Reporting on the case is often cited in broader debates about:
+  - Whether developers can be held liable for the actions of users
+  - The boundary between **neutral infrastructure** and **facilitation**
+  - The chilling effects (or deterrent effects) on privacy and open-source development
+
+## Career Timeline (expanded)
+
+> Note: This timeline is intentionally high-level. Specific dates, procedural steps, and appeals can change and should be verified from primary sources.
+
+- **2022**: Reported arrest in the Netherlands in connection with Tornado Cash-related investigations.
+- **2024**: Convicted of money laundering in the Netherlands (widely reported).
+
+## Implications / Why It Matters
+
+- **Crypto compliance**: The case is frequently referenced in discussions on how to regulate privacy-preserving protocols.
+- **Open-source accountability**: It is used as an example in arguments about whether “code is speech” and where liability attaches when software is used for illicit finance.
+- **Protocol governance**: Raises practical questions about control, maintenance, and the meaning of “operator” for decentralized projects.
 
 ## References
 

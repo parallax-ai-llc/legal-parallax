@@ -8,7 +8,7 @@ occupation: ["Serial Killer", "Nurse"]
 image: ""
 socialLinks:
   wikipedia: "https://en.wikipedia.org/wiki/Jane_Toppan"
-lastUpdated: "2026-02-21"
+lastUpdated: "2026-02-26"
 ---
 
 ## Summary
@@ -21,3 +21,38 @@ Jane Toppan was a Massachusetts nurse who confessed to 31 murders by poisoning p
 
 ## References
 [^1]: Encyclopedia of Criminal History; court and law enforcement records.
+[^2]: Wikipedia contributors, "Jane Toppan" — https://en.wikipedia.org/wiki/Jane_Toppan
+
+## Early Life and Training
+- Born **Honora Kelley** in Boston, Massachusetts, later known as Jane Toppan.
+- Her childhood was marked by instability; later accounts describe her being placed in institutions and foster care.
+- In the 1880s, she trained as a nurse in the Boston area and worked in hospitals and private-duty nursing roles.
+
+## Methods and Modus Operandi
+- Toppan primarily used **poisoning** with common medical drugs available to nurses at the time.
+- She was known to administer **morphine** and **atropine** in varying combinations to study their effects.
+- Many victims were patients or people in households where she was employed as a nurse.
+
+## Investigation and Confession
+- Suspicion grew after multiple deaths occurred in proximity to her nursing assignments.
+- In 1901, she was arrested and later **confessed** to killing dozens of people, with the oft-cited figure being **31**.
+- Her confession included the statement that her goal was "to have killed more people than any other man or woman."
+
+## Trial Outcome and Institutionalization
+- She was ultimately found **not guilty by reason of insanity** (in contemporary reporting).
+- After the trial process, she was committed to a psychiatric institution rather than serving a conventional prison sentence.
+- She remained institutionalized for decades until her death in 1938.
+
+## Historical Notes and Legacy
+- Toppan’s case is frequently cited in discussions of early 20th-century medical crimes and the vulnerabilities of patient care.
+- Her crimes influenced public awareness about oversight, medication control, and the risks of unmonitored access to drugs.
+
+## Expanded Career Timeline
+| Year | Event |
+|------|-------|
+| 1857 | Born in Boston, Massachusetts (reported as Honora Kelley). |
+| 1880s | Trained and worked as a nurse in the Boston/Massachusetts area. |
+| 1890s | Worked widely as a private-duty nurse; multiple later-attributed deaths occurred among patients and acquaintances. |
+| 1901 | Arrested amid growing suspicion; confessed to numerous poisonings. |
+| 1902 | Legal proceedings culminated in commitment to a psychiatric institution (commonly reported as insanity verdict). |
+| 1938 | Died while institutionalized. |

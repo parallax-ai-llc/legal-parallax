@@ -8,7 +8,7 @@ occupation: ["Assassin"]
 image: ""
 socialLinks:
   wikipedia: "https://en.wikipedia.org/wiki/Grigoris_Lambrakis_assassination"
-lastUpdated: "2026-02-21"
+lastUpdated: "2026-02-26"
 ---
 
 ## Summary
@@ -20,6 +20,39 @@ Greek left-wing politician Grigoris Lambrakis was murdered by right-wing extremi
 | Year | Event |
 |------|-------|
 | 1963 | Lambrakis killed by right-wing extremists with police complicity |
+
+## Context
+
+- **Country/period:** Greece in the early 1960s, during intense polarization between the political left and right and heightened security-state influence.
+- **Victim:** Grigoris Lambrakis was a prominent left-wing parliamentarian and peace activist. (Note: the frontmatter occupation field may not reflect this.)
+
+## What happened (high level)
+
+- **Date & place:** Lambrakis was attacked on **May 22, 1963**, in **Thessaloniki**, after attending a peace-related event.
+- **Method:** He was struck in a coordinated street attack attributed to **right-wing extremists**, with subsequent allegations and findings of **police negligence/complicity**.
+- **Death:** He died from injuries on **May 27, 1963**.
+
+## Investigation and legal proceedings
+
+- The case became a major political scandal because evidence pointed to:
+  - coordination by far-right groups,
+  - tolerance or assistance by elements of the security services,
+  - attempts to obstruct accountability.
+- A judicial investigation (widely associated with magistrate **Christos Sartzetakis**) helped bring details of the network and failures in policing to public attention.
+
+## Political and social impact
+
+- The assassination intensified public debate about the role of the **“deep state”** and security apparatus in Greek politics.
+- It contributed to the mobilization of democratic and peace movements and became a touchstone for discussions of political violence.
+
+## Cultural legacy
+
+- The case is closely associated with the novel and film **"Z"**, which popularized the story internationally and cemented its symbolic significance.
+
+## Quick facts
+
+- **Symbolism:** Often cited as an emblem of **state-enabled political violence**.
+- **Public memory:** Remembered through film, journalism, and historical accounts of Greece’s pre-junta era.
 
 ## References
 

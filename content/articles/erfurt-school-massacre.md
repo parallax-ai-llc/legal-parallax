@@ -8,7 +8,7 @@ occupation: ["Criminal Incident"]
 image: ""
 socialLinks:
   wikipedia: "https://en.wikipedia.org/wiki/Erfurt_School_Massacre"
-lastUpdated: "2026-02-21"
+lastUpdated: "2026-02-26"
 ---
 
 ## Summary
@@ -20,6 +20,34 @@ Robert Steinhäuser killed 16 people at the Gutenberg Gymnasium in Erfurt, Germa
 | Year | Event |
 |------|-------|
 | 2002 | 16 killed at school |
+
+## Incident Overview
+
+- **Date & place:** 26 April 2002, Gutenberg Gymnasium in Erfurt (Thuringia), Germany.
+- **Perpetrator:** **Robert Steinhäuser**, a former student.
+- **Outcome:** **16 victims** were killed before the perpetrator **died by suicide**.
+- **Significance:** Often described as the **deadliest school shooting in German history**, and a key turning point in German debates on firearms and school safety.
+
+## Context
+
+- Steinhäuser had previously been **excluded from the school**; reporting around the case often notes this as part of the immediate personal context.
+- The event occurred in a country with comparatively low rates of firearm violence, contributing to intense national attention and political urgency.
+
+## Aftermath and Policy Impact
+
+- The massacre accelerated calls for **stricter firearms regulation** in Germany.
+- Public discussion emphasized:
+  - **Access and eligibility** rules for firearms ownership.
+  - **Safe storage** and accountability for weapons.
+  - Enhanced **school security procedures** and crisis-response planning.
+- It also spurred broader attention to **warning signs**, reporting mechanisms, and coordination between schools, families, and authorities.
+
+## Legacy
+
+- The event remains a major reference point in Germany for:
+  - **School safety** training and emergency preparedness.
+  - Media and academic work on **rare but high-impact violence**.
+  - Policy discussions on how legal frameworks interact with prevention.
 
 ## References
 

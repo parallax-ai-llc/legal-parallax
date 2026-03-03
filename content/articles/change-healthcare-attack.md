@@ -8,7 +8,7 @@ occupation: ["Cybercrime Incident"]
 image: ""
 socialLinks:
   wikipedia: "https://en.wikipedia.org/wiki/Change_Healthcare_Attack"
-lastUpdated: "2026-02-21"
+lastUpdated: "2026-02-26"
 ---
 
 ## Summary
@@ -24,3 +24,42 @@ ALPHV ransomware attack on Change Healthcare disrupted prescription processing f
 ## References
 
 [^1]: Wikipedia, "Change Healthcare Attack" - https://en.wikipedia.org/wiki/Change_Healthcare_Attack
+
+---
+
+## Background
+
+- **Change Healthcare** is a major U.S. healthcare payments and claims processing company.
+- The company became part of **UnitedHealth Group** through its Optum business following UnitedHealth's acquisition of Change Healthcare.
+- Because Change Healthcare sits in the middle of pharmacy and insurance workflows, outages can cascade to pharmacies, providers, payers, and patients.
+
+## What Happened (High-Level)
+
+- In February 2024, Change Healthcare experienced a ransomware incident attributed in reporting to **ALPHV (BlackCat)**.
+- The incident led to **system shutdowns and prolonged disruption** to prescription processing and medical claims.
+- Public reporting described both **encryption/disruption** and **data theft (exfiltration)** as part of the incident.
+
+## Impact
+
+- **Patients and pharmacies:** Many pharmacies reported delays or inability to process certain prescriptions, requiring manual workarounds.
+- **Providers:** Clinics and hospitals faced delays in claims submission, payment posting, and revenue-cycle operations.
+- **Payers/insurers:** Large-scale claims routing issues increased operational load and slowed adjudication.
+- **Systemic scale:** Reporting summarized the disruption as affecting a significant portion of U.S. healthcare claim flows.
+
+## Response and Recovery
+
+- Change Healthcare and its parent organizations engaged incident response, including containment actions that reduced connectivity for affected platforms.
+- Recovery involved gradually restoring services and implementing interim **manual** or **alternative routing** processes for pharmacies and claims.
+- The event prompted broad scrutiny of healthcare-sector cyber resilience and third-party concentration risk.
+
+## Why It Mattered
+
+- The incident became a widely cited example of **single points of failure** in U.S. healthcare infrastructure.
+- It highlighted how ransomware in critical intermediaries can create nationwide downstream effects even when individual hospitals or pharmacies are not directly breached.
+
+## Key Takeaways (General)
+
+- **Concentration risk:** A small number of intermediaries can carry disproportionately large operational risk.
+- **Operational continuity:** Healthcare organizations benefit from tested downtime procedures (manual processing, alternate clearinghouses, paper workflows).
+- **Security fundamentals:** Segmentation, strong identity controls, and rapid detection/containment matter as much as backup-and-restore.
+- **Vendor risk management:** Third-party security posture and contingency planning should be treated as core patient-care risk.

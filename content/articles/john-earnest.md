@@ -8,7 +8,7 @@ occupation: ["Terrorist"]
 image: ""
 socialLinks:
   wikipedia: "https://en.wikipedia.org/wiki/John_Earnest"
-lastUpdated: "2026-02-21"
+lastUpdated: "2026-02-26"
 ---
 
 ## Summary
@@ -20,6 +20,35 @@ American who attacked a synagogue in Poway, California killing one, inspired by 
 | Year | Event |
 |------|-------|
 | 2019 | Committed Poway synagogue shooting |
+
+## Background
+
+- John T. Earnest is associated with the 2019 Poway synagogue shooting in Poway, California.
+- Contemporary reporting and investigators described the attack as ideologically motivated and connected to online extremist ecosystems.
+- The incident occurred in the broader context of a series of mass-violence attacks that referenced one another through manifestos and memes.
+
+## Poway synagogue shooting (2019)
+
+- Date: April 27, 2019.
+- Location: Chabad of Poway synagogue, Poway, California.
+- Victims: One person killed; multiple others injured.
+- Earnest was apprehended shortly after the shooting.
+
+### Stated motivations and influences
+
+- Authorities and news accounts reported that Earnest expressed antisemitic beliefs.
+- He was widely reported to have written a manifesto and to have referenced prior extremist attacks.
+- Investigators and researchers often discuss this case as an example of “copycat” or “inspiration” dynamics in violent extremist propaganda.
+
+## Legal case and outcome
+
+- Earnest faced state and federal charges related to the attack.
+- He pleaded guilty and received a life sentence in prison without the possibility of parole (in addition to other penalties described in reporting).
+
+## Significance
+
+- The attack prompted renewed discussion in the U.S. about synagogue security, hate-motivated violence, and online radicalization.
+- It is frequently cited alongside other late-2010s attacks when analyzing how manifestos and social platforms can transmit violent narratives.
 
 ## References
 
