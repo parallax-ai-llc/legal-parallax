@@ -51,3 +51,14 @@ Japanese forces used 180,000 Asian laborers and 60,000 Allied POWs to build the 
 - Pacific War
 - Japanese occupation of Burma
 - Prisoner of war camps in World War II
+
+## Scale, Engineering, and Logistics (Overview)
+
+- **Construction pace:** The railway was built on an accelerated timetable, with work intensifying during periods sometimes described as “speedo” campaigns, which further increased exhaustion and death rates.
+- **Infrastructure:** Major works included bridges and rock cuttings; surviving sections and preserved sites are often used to teach about both wartime engineering and coercive labor.
+- **Supply constraints:** Shortages of medicine, food, and adequate shelter were central drivers of the humanitarian disaster, alongside violence and punishment.
+
+## Postwar Accountability and Historical Memory
+
+- **War crimes proceedings:** The abuses associated with the railway became evidence in postwar trials and investigations into Japanese military conduct in Southeast Asia.
+- **Remembering romusha:** Modern scholarship and memorial practice increasingly emphasizes the experiences of Asian laborers, whose suffering historically received less attention than Allied POW narratives in some Western public memory.

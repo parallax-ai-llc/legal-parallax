@@ -51,3 +51,19 @@ Former Nigerian Senate President who was charged with false declaration of asset
 
 - Nigerian Senate
 - Politics of Nigeria
+
+## Policy Themes and Legislative Focus (General)
+
+- **Budget and oversight:** As a senior legislator and Senate President, Saraki was associated with debates over legislative oversight of the executive, including scrutiny of budgets and public spending.
+- **Institutional power:** Coverage of his tenure often focuses on how the Nigerian Senate balances independence against party discipline and executive influence.
+- **Federalism and state politics:** His prominence also reflects how state-level political machines (notably in Kwara State) can shape national leadership contests.
+
+## Public Image and Controversies (High-Level)
+
+- **Polarizing figure:** Saraki has been described as both a skilled coalition-builder and a symbol of entrenched elite politics, depending on the source.
+- **Anti-corruption narrative:** The legal proceedings around asset declarations became part of a broader conversation about whether anti-corruption cases in Nigeria are applied consistently or selectively.
+
+## Later Career (Context)
+
+- **Ongoing relevance:** Even after leaving the Senate Presidency, Saraki remained a recognizable national political actor, with influence that extends through party networks and public commentary.
+- **Interpretive caution:** Evaluations of his legacy vary widely and often depend on wider assessments of Nigerian political institutions rather than a single court case.

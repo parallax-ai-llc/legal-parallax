@@ -49,3 +49,17 @@ As the case unfolded, some family members left South Africa, and international c
 ## References
 
 [^1]: Wikipedia, "Gupta Family South Africa" - https://en.wikipedia.org/wiki/Gupta_Family_South_Africa
+## Overview
+The Gupta family in South Africa refers to a business family that became central to major political and corruption controversies, particularly during the presidency of Jacob Zuma. The term “state capture” is widely used in South Africa to describe alleged systematic influence over state institutions and procurement for private benefit, with the Guptas frequently cited in that context.
+
+## What “state capture” meant in practice
+Reporting and investigations have described patterns such as:
+- Influence over senior appointments in state-owned enterprises and ministries
+- Preferential access to government contracts and procurement
+- Use of intermediaries and complex corporate structures
+
+## Investigations and commissions
+South Africa established commissions and investigative processes to examine allegations, including the Zondo Commission of Inquiry into Allegations of State Capture. The resulting reports contributed to public understanding of how governance failures and patronage networks may operate across institutions.
+
+## Broader impact
+The controversy had lasting effects on trust in institutions, the performance of state-owned enterprises, and South Africa’s political discourse about accountability and reform.

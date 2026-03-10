@@ -50,3 +50,27 @@ By the mid-2010s, Niger intensified enforcement against human smuggling, includi
 - Agadez Region
 - Sahara Desert migration routes
 - Human smuggling in the Sahel (overview)
+
+## Broader Sahel and Mediterranean context (high-level)
+
+Northern Niger’s role as a transit zone is frequently discussed in relation to:
+
+- **conflict and instability in Libya** after 2011, which affected border governance and the demand for cross-border transport;
+- **economic incentives in desert communities**, where transport, logistics, and trade (including illicit trade) can become significant sources of income;
+- **international pressure on “migration management”**, including cooperation between Nigerien authorities and European partners.
+
+## Humanitarian and security dimensions
+
+Coverage of Sahara-route migration commonly highlights that:
+
+- routes can expose travelers to **extreme heat, dehydration, and abandonment** in remote areas;
+- migrants may face **extortion, violence, or detention** along the route, especially when crossing into conflict zones;
+- enforcement can **displace routes** rather than eliminate them, sometimes increasing risk by pushing travel farther off main corridors.
+
+## Notes for future expansion
+
+If expanding this profile beyond a high-level overview, useful categories to document (with explicit citations) include:
+
+- specific geographic corridors associated with Agadez-era transport,
+- the timeline and contents of Niger’s anti-smuggling law enforcement,
+- and distinctions between facilitation roles (driver/guide/broker) versus coercive trafficking.

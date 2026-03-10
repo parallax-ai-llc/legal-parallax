@@ -57,3 +57,23 @@ Ganapathy is frequently referenced in analyses of how insurgent movements sustai
 - Naxalite–Maoist insurgency
 - Counterinsurgency and internal security in India
 - CPI (Maoist) organizational structure
+
+## Movement Context (High-Level)
+
+Analysts commonly describe the Maoist insurgency as spanning:
+
+- political organization (cadre, messaging, local governance claims),
+- armed wings (guerrilla units, ambush tactics),
+- contested rural areas where state services, policing, and development are uneven.
+
+## Leadership and Continuity
+
+Underground movements often rely on:
+
+- pseudonyms and compartmentalization,
+- succession planning through committees,
+- ideological education to maintain cohesion when leaders age or are removed.
+
+## Caution on Biographical Specifics
+
+Because senior insurgent leaders operate clandestinely, public biographical details can be incomplete, contested, or based on intelligence claims rather than open documentation.

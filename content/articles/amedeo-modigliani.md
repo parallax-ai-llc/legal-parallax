@@ -51,3 +51,25 @@ This artist entry is misplaced in the scientist category.
 ## Categorization Note
 
 This entry describes an artist (not a scientist). If the surrounding collection is organized by discipline, it may belong under an art/artist or modern art category.
+
+## Brief Biography (high-level)
+
+- Born in Livorno, Italy, Modigliani later moved to Paris, where he developed his mature style.
+- Accounts of his life frequently note health problems and a short, intense period of productivity.
+- His partner Jeanne Hébuterne is closely associated with his biography and posthumous narrative.
+
+## Sculpture and cross-media work
+
+Although his public reputation is dominated by painting, secondary sources commonly emphasize that:
+
+- Modigliani pursued sculpture seriously for a period, producing carved heads with simplified, elongated features.
+- The sculptural approach is often linked to the planar, linear treatment visible in his painted portraits.
+
+## Reception and market significance (context)
+
+- Modigliani’s work became significantly more celebrated after his death, with major museum collections and retrospectives contributing to canonization.
+- His paintings and drawings have also been central to discussions about authentication and provenance in the modern art market, reflecting both high demand and complex documentation histories in early 20th‑century avant‑garde circles.
+
+## References (Additional)
+
+[^2]: Major museum collection notes and art-historical survey texts (for overview descriptions of style, periods, and reception).

@@ -48,3 +48,29 @@ Berezovsky was found dead in 2013 in England. The circumstances drew major atten
 - the relationship between wealth accumulation and political power in weakly institutionalized environments,
 - the role of media ownership in shaping political outcomes,
 - and the risks faced by politically exposed business figures after elite realignments.
+
+## The "oligarch" label (context)
+
+In post-Soviet Russia, the term "oligarch" is often used for business figures who combined:
+
+- control over major industrial or financial assets,
+- access to state decision-makers,
+- and influence over mass media or political parties.
+
+Berezovsky is frequently cited in this category because his public profile blended commerce, political maneuvering, and media.
+
+## Relationship to state power
+
+Reporting and retrospective accounts often frame Berezovsky's arc as a shift from insider influence during the Yeltsin-era political economy to marginalization after the state reasserted control over key sectors and tightened constraints on elite actors. The extent to which his earlier influence derived from formal positions versus informal networks remains a point of interpretation.
+
+## Life in the United Kingdom
+
+In exile, Berezovsky remained visible in media interviews and political commentary. At the same time, his financial position and legal exposure were shaped by:
+
+- civil litigation over disputed transactions,
+- the costs and reputational effects of high-profile court cases,
+- and the difficulty of enforcing or contesting post-Soviet-era claims across jurisdictions.
+
+## Why his story is studied
+
+Berezovsky is often used as a narrative anchor for the 1990s transition in Russia: how rapid market creation, weak rule-of-law capacity, and political competition can produce concentrated wealth and then subject it to reversal when political coalitions and enforcement priorities change.

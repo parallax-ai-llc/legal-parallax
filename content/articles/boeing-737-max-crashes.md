@@ -51,3 +51,28 @@ The 737 MAX crashes are often treated as a modern case study in socio-technical 
 ## Continuing relevance
 
 The episode continues to influence how airlines, regulators, and manufacturers discuss automation transparency, training assumptions, and the governance of safety-critical software in complex commercial systems.
+
+## System safety themes (high-level)
+
+Analyses of the MAX crisis commonly focus on recurring themes in safety-critical engineering:
+
+- **single-point vulnerability:** dependence on limited sensor inputs can create brittle behavior when a sensor fails,
+- **automation surprise:** pilots may not expect an automated system to behave as aggressively as it does,
+- **assumption drift:** design and training assumptions can diverge from real-world operations,
+- **human-in-the-loop limits:** time pressure and workload can make manual recovery procedures harder to execute.
+
+## Certification and oversight debate
+
+Public discussion after the groundings highlighted questions about how modern airliners are certified:
+
+- what should be reviewed directly by regulators versus delegated to manufacturers,
+- how to evaluate incremental changes to older aircraft families,
+- and how to document software behavior so that operational crews have an accurate mental model.
+
+## Operational and training considerations
+
+The MAX case is also discussed in relation to:
+
+- training standards and the trade-off between simulator time and documentation-based differences training,
+- airline procedures for stabilizer trim runaways and related abnormal checklists,
+- and how cockpit alerts and indications should be prioritized to support rapid diagnosis.

@@ -53,6 +53,28 @@ The Wikipedia biography lists roles and affiliations including:
 
 Lemos has also been involved in public communication about technology, including television and journalism/commentary, positioning his work at the boundary between academic research and public policy debate.[^1]
 
+## Notability (high level)
+
+Ronaldo Lemos is most frequently cited for bridging academic legal scholarship with practical internet policy in Brazil, particularly through work and commentary connected to the **Marco Civil da Internet** (Brazil’s “Internet Civil Rights Framework”).[^1]
+
+At an institutional level, his notability is also tied to building or leading organizations and programs focused on digital rights and technology governance, including **Creative Commons Brazil** and **ITS Rio**.[^1]
+
+## Recurring themes (high level)
+
+Across public profiles and summaries of his work, several themes recur:[^1]
+
+- **Rule-making for the internet:** How civil rights, platform accountability, and due process concepts translate to online environments.
+- **Open knowledge ecosystems:** How copyright, licensing, and community-driven models (e.g., Creative Commons) affect cultural and educational access.
+- **Governance and oversight:** Participation in governance bodies that review or advise on platform policy decisions and their societal impacts.
+
+## Related topics
+
+- Marco Civil da Internet
+- Creative Commons
+- Internet governance
+- Digital rights
+- Platform governance and oversight
+
 ## References
 
 [^1]: Wikipedia, "Ronaldo Lemos" - https://en.wikipedia.org/wiki/Ronaldo_Lemos

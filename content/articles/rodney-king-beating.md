@@ -58,3 +58,24 @@ LAPD officers were videotaped beating motorist Rodney King over 50 times. Their 
 
 [^2]: Wikipedia, "1992 Los Angeles riots" - https://en.wikipedia.org/wiki/1992_Los_Angeles_riots
 [^3]: Wikipedia, "Christopher Commission" - https://en.wikipedia.org/wiki/Christopher_Commission
+
+## Institutional response (high-level)
+
+- The incident is closely associated with official review efforts of LAPD practices in the early 1990s, including the work commonly referred to as the **Christopher Commission**.[^3]
+- In many historical summaries, the beating is treated as both:
+  - a singular event captured on video, and
+  - a catalyst that accelerated wider scrutiny of policing culture, discipline systems, and use-of-force standards in Los Angeles.
+
+## Trials (context)
+
+- Public narratives often distinguish between:
+  - the **state criminal case** (initial trial), and
+  - subsequent **federal civil-rights proceedings**, which had different legal standards and outcomes.[^1]
+
+## Media and accountability (why this became a template)
+
+- The Holliday videotape is frequently cited as a precursor to later eras of citizen-recorded policing incidents.
+- The case is often used in teaching and commentary about how:
+  - visual evidence influences public trust,
+  - institutions respond under crisis conditions,
+  - and legal outcomes can diverge from public expectations.

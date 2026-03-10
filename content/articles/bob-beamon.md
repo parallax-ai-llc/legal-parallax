@@ -49,3 +49,12 @@ Beamon's Mexico City jump is commonly cited as one of the most dramatic single-e
 - Beamon's 8.90 m remains the **Olympic record** in the men's long jump.
 - The jump was measured with then-standard equipment and famously required officials to locate a longer measuring tape than was immediately available.
 - In sports history writing, the performance is often compared to other "outlier" records that stood for decades.
+
+## Why the record mattered
+
+- The jump reset expectations for the event: for years, 8.90 m served as an aspirational benchmark rather than a reachable target.
+- In athletics governance and broadcast culture, it became a case study for how environmental conditions can interact with performance (altitude and wind assistance are now routinely discussed in jumping events).
+
+## Common comparisons
+
+Writers often mention Beamon alongside other long-standing athletics records to illustrate how rare it is for a single attempt to create a large discontinuity in world-best progression.

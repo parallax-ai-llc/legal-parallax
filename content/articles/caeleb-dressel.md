@@ -51,3 +51,14 @@ Caeleb Dressel won five gold medals at 2021 Tokyo Olympics.
 
 - Swimming at the Summer Olympics
 - World Aquatics Championships
+
+## Technique Notes (General)
+
+- **Starts and underwater work:** In short sprint events, fractions of a second are often gained through reaction time, launch angle, and sustained underwater dolphin kicks before surfacing.
+- **Turn efficiency:** For 100 m races, the mid-race turn is frequently decisive; elite swimmers aim to minimize deceleration and maximize push-off speed.
+- **Race distribution:** Sprint swimmers typically manage “front-half” speed against fatigue, especially in the 100 m butterfly where late-race form can separate medalists.
+
+## Records and Comparisons (Context)
+
+- **Era comparisons:** Discussions of Dressel often compare his multi-event capability (individual sprints plus relays) with other Olympic-era sprinters, while noting differences in competition fields across cycles.
+- **Team role:** Relay lineups make him relevant beyond individual medals, because sprint relay outcomes can hinge on start exchanges and split times.

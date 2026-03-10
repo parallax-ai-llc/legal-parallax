@@ -49,3 +49,17 @@ Figures like Gaviria are often referenced in analyses of how cartels professiona
 ## References
 
 [^1]: Wikipedia, "Gustavo Gaviria" - https://en.wikipedia.org/wiki/Gustavo_Gaviria
+## Overview
+Gustavo Gaviria was a Colombian drug trafficker best known as a key early associate and cousin of Pablo Escobar within the Medellín Cartel. He played an important role in the organization’s business operations during the rise of large‑scale cocaine trafficking in the late 1970s and 1980s.
+
+## Role in the Medellín Cartel
+Sources commonly describe Gaviria as involved in:
+- Financing and logistics for trafficking operations
+- Managing aspects of the cartel’s economic infrastructure
+- Coordinating with networks that enabled export and laundering
+
+## Context
+The Medellín Cartel era shaped Colombia’s security landscape, contributing to violence and corruption as the state confronted powerful criminal organizations. Understanding figures like Gaviria is often part of explaining how cartel structures combined business management, coercion, and political pressure.
+
+## Legacy
+The history of the Medellín Cartel remains influential in discussions about narcotics policy, organized crime, and the long-term social costs of the cocaine trade in Colombia and beyond.

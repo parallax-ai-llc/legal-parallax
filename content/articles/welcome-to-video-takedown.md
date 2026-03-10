@@ -10,7 +10,6 @@ socialLinks:
   wikipedia: "https://en.wikipedia.org/wiki/Welcome_to_Video_Takedown"
 lastUpdated: "2026-02-26"
 ---
-
 ## Summary
 
 International operation took down one of the largest CSAM websites run by South Korean Jong Woo Son. 337 users were arrested across 23 countries using Bitcoin blockchain analysis.
@@ -48,3 +47,11 @@ According to published summaries, hundreds of suspects were identified, and many
 ## Notes
 
 Counts (such as the number of arrests and participating countries) are typically reported as part of official statements and media summaries and can change as cases progress through courts.[^1]
+
+## Additional Context
+
+This section is intentionally high-level and is meant to be expanded with reliably sourced details.
+
+## See Also
+
+- Related topics and comparable incidents (add as sourced references become available).

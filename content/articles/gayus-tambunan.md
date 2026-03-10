@@ -61,3 +61,24 @@ The Tambunan case is commonly referenced as:
 - Indonesia’s Corruption Eradication Commission (KPK)
 - Tax administration reform and governance
 - Corruption in judicial and law-enforcement institutions
+
+## Why the Story Resonated
+
+The scandal became unusually salient because it combined:
+
+- the tax system (a core state function),
+- visible lifestyle/wealth allegations,
+- allegations of bribery across enforcement and judiciary chains,
+- and the highly symbolic prison-leave episode.
+
+## Institutional Implications
+
+Commentary around the case often points to the need for:
+
+- stronger internal controls and asset-disclosure enforcement,
+- protections for investigators and whistleblowers,
+- transparent case management to reduce opportunities for interference.
+
+## Public Trust Dimension
+
+In corruption cases, public confidence can be damaged not only by the initial offense but by perceptions that punishment can be negotiated. The Tambunan episode is frequently cited as an example of that dynamic.

@@ -52,3 +52,18 @@ Note: Roberto Saviano is actually an anti-Mafia journalist, not a criminal. Entr
 ## Data Hygiene
 
 - If this repository is used for biographical summaries, consider adding a validation rule to flag contradictory labels (e.g., "Fraudster") when the summary explicitly states the person is a journalist.
+
+## Safety / Threat Context (high-level)
+
+- Saviano is widely reported to have lived under **state protection** for many years due to threats associated with his anti-mafia writing and public profile.[^1]
+- This long-running protection status is frequently cited in journalism as a modern example of the personal risks faced by investigative reporters who target organized-crime structures.
+
+## Adaptations and wider cultural footprint
+
+- The book *Gomorrah* helped spur a broader media ecosystem (books, film, television) that brought the Camorra’s methods and networks into international public discussion.[^1]
+- In many summaries, the impact is framed less as a single exposé and more as sustained public education about how criminal organizations intersect with legitimate markets.
+
+## Data-quality note (why the mislabel matters)
+
+- Labels such as "Fraudster" can propagate through downstream systems (search, classification, risk scoring) even when contradicted by the body text.
+- Treat frontmatter occupation tags as **untrusted** unless cross-validated against a reliable biography source.

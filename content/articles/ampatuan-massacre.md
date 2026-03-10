@@ -47,6 +47,25 @@ See Maguindanao Massacre. Political mass murder that killed 58 people.
 - **Election violence:** It remains a prominent example in debates about private armed groups, local political dynasties, and election security.
 - **Public memory:** Anniversaries of the massacre are marked by advocacy groups and media organizations calling for accountability and protection for the press.
 
+## Legal proceedings (high-level)
+
+- The prosecution involved a large number of suspects and accused, reflecting allegations of coordinated participation by armed groups and local political actors.
+- Reporting on the case often emphasizes the **length of the trial**, security concerns for witnesses, and the administrative burden of handling mass-evidence records.
+- The 2019 convictions were widely characterized as a significant—though incomplete—step toward accountability, with additional cases, appeals, and enforcement issues continuing to be discussed afterward.
+
+## Why the “journalist massacre” label matters
+
+- The high number of journalists killed has made the event a global reference point for the dangers of political reporting in high-risk environments.
+- Media and advocacy organizations frequently use the case when assessing impunity and the effectiveness of protections for journalists.
+
+## Policy and governance themes (context)
+
+The massacre is commonly situated in broader debates about:
+
+- regulation and disbandment of **private armed groups**,
+- election administration and local security coordination,
+- and the influence of entrenched political dynasties on local institutions.
+
 ## References
 
 [^1]: Wikipedia, "Ampatuan Massacre" - https://en.wikipedia.org/wiki/Ampatuan_Massacre

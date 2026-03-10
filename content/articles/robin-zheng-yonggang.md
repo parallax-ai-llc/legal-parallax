@@ -76,3 +76,25 @@ The following are **common confusions** to check against during verification (li
 ## References
 
 [^1]: Wikipedia (title missing), “Robin Zheng Yonggang” — https://en.wikipedia.org/wiki/Robin_Zheng_Yonggang
+
+## Stub policy (why we keep this file)
+
+- This repository appears to track people/events even when open sources are incomplete.
+- Keeping a stub with clear "research status" prevents accidental invention of details and preserves a stable identifier for later correction.
+
+## Minimal safe expansion (without new claims)
+
+Until the identity is confirmed, safe additions are limited to:
+
+- clarifying uncertainty and disambiguation risks,
+- listing what kinds of documents would resolve identity,
+- and documenting that the current Wikipedia pointer is not resolvable.
+
+## Next-step artifacts to look for
+
+Examples of artifacts that can support a factual expansion (listed as research targets, not assertions):
+
+- a company investor-relations biography that includes Chinese characters for the name,
+- a regulatory filing that lists executive officers/directors,
+- a major media profile in Chinese or English with matching biographical anchors,
+- or a corrected Wikipedia page title that exists and clearly matches the same person.

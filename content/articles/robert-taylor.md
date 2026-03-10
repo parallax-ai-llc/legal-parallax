@@ -51,3 +51,23 @@ High-level, factual milestones commonly associated with Charles Taylor (Liberia)
 
 [^1]: Wikipedia, "Robert Taylor" - https://en.wikipedia.org/wiki/Robert_Taylor
 [^2]: Wikipedia, "Charles Taylor (Liberian politician)" - https://en.wikipedia.org/wiki/Charles_Taylor_(Liberian_politician)
+
+## Legal Case (SCSL) — context
+
+- **Forum:** The prosecution of Charles Taylor was conducted by the **Special Court for Sierra Leone (SCSL)**, a hybrid international tribunal focused on serious crimes committed during the Sierra Leone Civil War.
+- **Theory of responsibility (high-level):** Public summaries commonly describe the SCSL case as alleging that Taylor **supported** armed groups in Sierra Leone (including through assistance tied to diamond flows), rather than that he personally committed every underlying act.
+- **Outcome:** The tribunal convicted Taylor in 2012, and he was sentenced in 2012 (as noted above).[^2]
+
+## Why the dataset redirect matters
+
+- In structured datasets, mislabeling/duplication can fragment facts across near-identical records.
+- Consolidating “Robert Taylor” into the canonical “Charles Taylor” entry helps keep:
+  - dates and roles consistent,
+  - legal-case metadata in one place,
+  - and citations attached to the correct identity.
+
+## Related topics
+
+- Liberian Civil Wars
+- Sierra Leone Civil War
+- Special Court for Sierra Leone (SCSL)

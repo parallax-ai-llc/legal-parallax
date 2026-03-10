@@ -49,3 +49,21 @@ This article summarizes widely reported high-level facts about the event and Sam
 - November 2015 Paris attacks
 - Bataclan theatre attack
 - Islamic State (ISIS)
+
+## Investigations and judicial process (high-level)
+
+- French authorities conducted extensive investigations into the November 2015 attacks, focusing not only on the perpetrators but also on facilitators, logistics, and cross-border networks.
+- In the years that followed, France held major terrorism trials connected to the attacks, drawing on survivor testimony, forensic reconstruction, and intelligence reporting.
+
+## Reporting themes (context)
+
+Public coverage of individual attackers in the Paris attacks frequently emphasizes themes such as:
+
+- pathways to radicalization (often discussed case-by-case and with limited publicly verifiable detail),
+- recruitment and operational direction linked to ISIS,
+- and the role of travel, documentation, and safe-houses in enabling coordinated multi-site attacks.
+
+## Sourcing caution
+
+- Biographical claims about motivations, communications, or specific operational orders should be treated carefully and attributed to official findings (court records, indictments, or credible investigative reporting).
+- When adding details, distinguish clearly between **confirmed facts** and **reported allegations**.

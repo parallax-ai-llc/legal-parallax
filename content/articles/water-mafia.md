@@ -10,7 +10,6 @@ socialLinks:
   wikipedia: "https://en.wikipedia.org/wiki/Water_Mafia"
 lastUpdated: "2026-02-26"
 ---
-
 ## Summary
 
 Criminal networks in Indian cities control illegal water distribution, stealing from pipelines and selling at inflated prices to slum residents. A multi-billion dollar underground economy.

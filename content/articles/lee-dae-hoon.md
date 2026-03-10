@@ -47,6 +47,10 @@ While detailed technical breakdowns vary by match footage and opponent, top-leve
 
 South Korea has a long-standing international reputation in taekwondo, and Olympic medalists are often treated as key representatives of the sport’s domestic training pipeline. Athletes like Lee are commonly referenced in discussions of how national teams sustain performance as rules, protective gear, and scoring technology change.
 
+## Notes on Olympic competition context (high level)
+
+Olympic taekwondo is structured around short, high-intensity rounds where single scoring exchanges can decide a match. Because scoring has increasingly relied on electronic sensors in protectors and headgear, elite athletes are often evaluated not only for athleticism but also for their ability to optimize technique for the scoring system and avoid penalties that can swing close bouts.
+
 ## References
 
 [^1]: Wikipedia, "Lee Dae-hoon" - https://en.wikipedia.org/wiki/Lee_Dae-hoon

@@ -58,3 +58,21 @@ Brother and accountant of Pablo Escobar who managed the Medellín Cartel finance
 
 - Most accessible summaries for this topic are derived from encyclopedic entries and journalistic retellings.
 - For historical work, corroborate claims across multiple independent sources and treat sensational details with caution.
+
+## Medellín Cartel (context)
+
+- The Medellín Cartel is commonly described as one of the most powerful drug-trafficking organizations of the late 20th century, centered in Colombia.
+- The group’s rise is typically associated with large-scale cocaine trafficking and the use of corruption and violence in conflicts with the state and rival actors.
+
+## On "accounting" roles in clandestine organizations
+
+- In open-source descriptions, a cartel accountant role can include record-keeping, tracking payments, coordinating cash movement, and managing obligations to partners and intermediaries.
+- Because such systems are deliberately hidden, open accounts can over-simplify internal division of labor; treat role labels as approximations unless corroborated.
+
+## Data notes
+
+- The profile is intentionally written at a high level and avoids precise financial claims.
+- When expanding, prefer adding:
+  - dated court events (arrest, conviction, sentence),
+  - clear institutional citations,
+  - and definitions of entities (cartel, state institutions) rather than unverifiable anecdote.

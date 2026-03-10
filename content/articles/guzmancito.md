@@ -49,3 +49,19 @@ As with many cartel leadership cases, public information evolves through indictm
 ## References
 
 [^1]: Wikipedia, "Guzmancito" - https://en.wikipedia.org/wiki/Guzmancito
+## Overview
+“Guzmancito” is a nickname that appears in reporting and popular references connected to Mexican organized crime, often used to refer to relatives or associates of Joaquín “El Chapo” Guzmán. The nickname has been used inconsistently across sources, and attribution can be ambiguous.
+
+## Context
+Nicknames are common in organized-crime milieus and can refer to:
+- Family members within trafficking networks
+- Trusted lieutenants or intermediaries
+- Individuals referenced in intercepted communications or court filings
+
+## Source sensitivity
+Because the same nickname can be applied to different individuals, careful summaries typically anchor the term to specific cases, dates, or legal documents. When coverage is unclear or contradictory, it is better to describe the uncertainty than to force a single identification.
+
+## Related themes
+- The Sinaloa Cartel’s organizational structure and succession dynamics
+- The role of family ties and patronage networks in trafficking groups
+- How media reporting and court records shape public narratives about criminal groups

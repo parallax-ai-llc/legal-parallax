@@ -10,7 +10,6 @@ socialLinks:
   wikipedia: "https://en.wikipedia.org/wiki/WannaCry_Ransomware_Attack"
 lastUpdated: "2026-02-26"
 ---
-
 ## Summary
 
 North Korean-attributed ransomware attack infected 200,000 computers across 150 countries. Crippled the UK's National Health Service and caused billions in damages worldwide.

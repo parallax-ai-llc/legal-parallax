@@ -51,3 +51,25 @@ The episode is frequently cited in discussions about:
 - Sonali Bank
 - Hallmark Group (Bangladesh)
 - Corruption in Bangladesh (overview)
+
+## How large loan-fraud cases typically work (high-level)
+
+While specifics depend on the actors and the bank’s internal controls, major lending-fraud scandals of this kind are often described as involving:
+
+- **Borrower identity and documentation manipulation**: forged trade licenses, invoices, or collateral records used to create the appearance of legitimate business activity.
+- **Use of intermediaries and related entities**: multiple companies (including shell entities) to spread exposure and evade standard risk checks.
+- **Control breakdowns inside the bank**: weak verification, poor segregation of duties, or compromised approval processes that allow repeated renewals or disbursements.
+- **Delayed detection**: fraud can remain hidden until repayments fail at scale, triggering audits, investigations, or political scrutiny.
+
+## Institutional and policy impact (context)
+
+Large state-bank fraud cases in Bangladesh have been widely discussed as catalysts for:
+
+- tighter lending and documentation verification requirements,
+- increased attention to internal audit and compliance capacity,
+- and public debate about governance and accountability in state-owned financial institutions.
+
+## Notes on sourcing
+
+- Many summaries of the Hallmark/Sonali Bank scandal are based on investigative reporting and court coverage.
+- When adding numerical figures (amounts, dates, counts of accused), prefer a single, clearly cited source to avoid mixing inconsistent estimates.

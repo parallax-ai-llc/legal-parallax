@@ -50,3 +50,21 @@ Denard's life is frequently used as an example of:
 ## Media and memory
 
 Denard has been the subject of books and documentaries about mercenaries and post-colonial conflict. Retellings often debate whether he should be understood primarily as an adventurer, a political instrument, or a criminal actor operating in permissive geopolitical conditions.
+
+## Typical operating model (high-level)
+
+Accounts of Denard's activities often describe a recurring pattern:
+
+- recruiting small groups of experienced fighters rather than mass forces,
+- relying on speed, surprise, and control of key nodes (airports, radio, government buildings),
+- and leveraging personal networks to obtain financing, equipment, and political cover.
+
+This style made operations feasible even in remote island or lightly governed settings, but it also meant outcomes were highly sensitive to defections, intelligence leaks, and international reaction.
+
+## Comoros and international pressure
+
+The Comoros episodes drew attention because they involved a sovereign state repeatedly subjected to armed takeovers. Over time, regional and international actors increased pressure to discourage such interventions, and France ultimately acted to stop Denard's last major attempt in the 1990s.
+
+## Legacy and debate
+
+Denard remains a contentious figure. Some portray him as an emblem of a transitional era in which informal armed actors filled gaps left by weak institutions; others emphasize the human cost and the destabilizing impact of coups on state capacity and civil life. The disagreement itself is part of why his name persists in discussions of mercenarism.

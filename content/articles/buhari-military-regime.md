@@ -52,3 +52,14 @@ Muhammadu Buhari's military government imprisoned journalists and politicians, i
 - Nigerian military governments of the 1980s
 - Civil liberties under emergency or decree-based rule
 - Coups and transitions in postcolonial states
+
+## International Relations (Overview)
+
+- **Regional context:** Nigeria’s military governments operated within a West African region that also experienced recurrent coups and periods of authoritarian rule.
+- **External perceptions:** Reporting on the Buhari period frequently frames it through **human-rights and civil-liberties concerns**, shaping how foreign media and advocacy groups described the regime.
+- **Policy continuity:** Nigeria’s core diplomatic interests (oil markets, regional influence, and security) largely persisted across successive military administrations, even as internal governance shifted.
+
+## Historiography and Debate
+
+- **Competing narratives:** Some accounts emphasize anti-corruption and “discipline” goals, while others foreground **detention without trial**, limits on political participation, and constraints on press freedom.
+- **Legacy comparisons:** Buhari’s later democratic presidency often prompted retrospective comparisons, making the 1983–1985 military period a frequent reference point in Nigerian political commentary.

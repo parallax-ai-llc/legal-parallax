@@ -49,3 +49,18 @@ The number of detainees has declined substantially from its peak as transfers an
 ## References
 
 [^1]: Wikipedia, "Guantánamo Bay Detention" - https://en.wikipedia.org/wiki/Guant%C3%A1namo_Bay_Detention
+## Overview
+Guantánamo Bay detention refers to the detention facility operated by the United States at Guantánamo Bay Naval Base in Cuba. It was opened in early 2002 in the context of the post‑9/11 “war on terror” to hold individuals captured in counterterrorism operations.
+
+## Legal and political context
+The facility became a focal point of debate about:
+- Indefinite detention without criminal trial
+- Access to counsel and due process
+- The applicability of US constitutional protections and international humanitarian law
+- The role of military commissions as an alternative to civilian courts
+
+## Key issues raised
+Public discussion has often centered on allegations of mistreatment, interrogation practices, intelligence reliability, and the difficulty of prosecuting cases built on classified information. Successive US administrations have expressed different policies regarding the facility, including efforts to reduce the detainee population and, at times, proposals to close the site.
+
+## Legacy
+Guantánamo has influenced US and international discourse on counterterrorism, human rights, and the rule of law, and it has been cited in debates about detention standards and accountability.

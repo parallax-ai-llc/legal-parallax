@@ -10,7 +10,6 @@ socialLinks:
   wikipedia: "https://en.wikipedia.org/wiki/Warren_Buffett_dup99"
 lastUpdated: "2026-02-26"
 ---
-
 ## Summary
 
 Duplicate.

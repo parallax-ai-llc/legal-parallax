@@ -51,3 +51,14 @@ Cafu appeared in three consecutive WC finals (1994, 1998, 2002) and captained Br
 - Brazil national football team
 - FIFA World Cup
 - Full-back (association football)
+
+## Leadership and Notable Traits (High-Level)
+
+- **Captaincy:** As captain of Brazil’s 2002 World Cup team, Cafu is often cited for calm leadership and for setting an example through work rate.
+- **Consistency:** Commentary on his career frequently emphasizes reliability—performing at a high level over many seasons in both club and international football.
+- **Two-way demands:** His style illustrates the increasing physical and tactical demands placed on full-backs in modern football, balancing defensive positioning with attacking width.
+
+## Honors and Recognition (Context)
+
+- **Major trophies:** Across club and country, Cafu’s career is associated with top-level domestic league titles and continental competitions, alongside World Cup success.
+- **Positional legacy:** In discussions of right-backs, he is often referenced as a benchmark for endurance, overlapping play, and disciplined defending.

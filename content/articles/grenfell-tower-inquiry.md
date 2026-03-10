@@ -50,3 +50,20 @@ The disaster and inquiry contributed to major changes in UK building-safety poli
 
 [^1]: Wikipedia, "Grenfell Tower Inquiry" - https://en.wikipedia.org/wiki/Grenfell_Tower_Inquiry
 [^2]: Grenfell Tower Inquiry (official site) - https://www.grenfelltowerinquiry.org.uk/
+## Overview
+The Grenfell Tower Inquiry is a public inquiry in the United Kingdom established to examine the circumstances surrounding the Grenfell Tower fire in London in June 2017. It has taken evidence from survivors, bereaved families, residents, firefighters, government officials, regulators, and companies involved in the building’s refurbishment and management.
+
+## What the inquiry examines
+At a high level, the inquiry has focused on:
+- Decisions and actions by the landlord and managing agents before the fire
+- The 2010s refurbishment of Grenfell Tower, including design choices and materials
+- Building regulations, guidance, and enforcement in relation to high‑rise fire safety
+- The London Fire Brigade’s response, including operational decision-making and communications
+
+## Why it matters
+The Grenfell Tower fire became a watershed moment for UK building safety policy. The inquiry has been closely linked to wider reforms in fire safety and building regulation, including scrutiny of cladding and insulation products, the testing and certification ecosystem, and responsibilities across the construction supply chain.
+
+## Related topics
+- High-rise building fire compartmentation and external wall systems
+- Product testing, certification, and regulatory oversight
+- Resident safety concerns and how they are escalated within housing management

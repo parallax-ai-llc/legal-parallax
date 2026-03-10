@@ -46,6 +46,21 @@ In general terms, “indicted” or “charged” indicates that prosecutors hav
 
 Separate from the legal proceedings, Lee was the victim of a high-profile attack that was widely covered by news outlets. Such incidents often lead to increased personal security measures for political figures and renewed debate about polarization and political violence.
 
+## Reading guide (practical)
+
+When tracking an ongoing legal controversy, it can help to separately note:
+
+- **What is formally in the indictment** (the prosecutor’s claim)
+- **What the defense concedes or disputes**
+- **What the court has actually ruled so far** (including procedural decisions)
+- **What remains pending** (future hearings, appeals, related investigations)
+
+This separation reduces confusion when headlines compress complex proceedings into short summaries.
+
+## Political significance (high level)
+
+Because Lee has been a central figure in opposition politics, legal developments have often been treated as politically consequential in their own right—affecting party strategy, public messaging, and perceptions of institutional fairness—regardless of the eventual legal outcome.
+
 ## References
 
 [^1]: Wikipedia, "Lee Jae-myung Legal Troubles" - https://en.wikipedia.org/wiki/Lee_Jae-myung_Legal_Troubles

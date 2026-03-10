@@ -51,3 +51,14 @@ French suspect accused of murdering his wife Delphine in 2020. While technically
 
 - Disappearance of Delphine Jubillar
 - Criminal procedure in France
+
+## Legal and Investigative Context (France)
+
+- **Investigating magistrates:** High-profile French criminal cases can involve an investigating judge (juge d’instruction) overseeing parts of the inquiry, a structure that differs from purely prosecutor-led models.
+- **Cases without a body:** “No-body” homicide prosecutions tend to rely on circumstantial evidence, consistency of timelines, digital traces, and corroborated witness statements.
+- **Pre-trial publicity:** Extensive media attention can shape public narratives, which is why court proceedings and evidentiary standards are often emphasized in responsible coverage.
+
+## Significance (Why It Drew Attention)
+
+- **Uncertainty and timeline gaps:** Missing-person cases with unclear movements and limited physical evidence often generate prolonged public interest.
+- **Procedural milestones:** Detention decisions, expert reports, and investigative acts become news in long-running French cases, keeping the story visible even before trial.

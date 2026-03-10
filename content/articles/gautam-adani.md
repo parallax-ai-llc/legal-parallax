@@ -57,3 +57,24 @@ Adani is often treated as a case study in modern Indian capitalism: rapid scale-
 - Infrastructure finance and conglomerate governance
 - Short-seller reports and market reactions
 - Corporate oversight and regulatory review
+
+## Conglomerate Dynamics (High-Level)
+
+Large infrastructure groups are often evaluated on:
+
+- capital structure and refinancing risk,
+- project execution (permits, timelines, cost overruns),
+- related-party transactions and transparency,
+- exposure to regulation in ports, power, and energy markets.
+
+## Market and Policy Sensitivity
+
+Because infrastructure assets intersect with public policy, Adani-related controversies have tended to spill into wider debates about:
+
+- national development priorities,
+- the role of private capital in strategic sectors,
+- how regulators and courts respond to high-salience allegations.
+
+## Tracking Claims Over Time
+
+For claims such as short-seller allegations or criminal indictments, the most reliable references are primary documents (court filings, regulator releases, audited statements) and major outlets that cite them directly, since summaries can become outdated quickly.

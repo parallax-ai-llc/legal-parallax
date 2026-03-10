@@ -49,3 +49,14 @@ His case illustrates how cross-border wealth, immigration status, and online fun
 ## References
 
 [^1]: Wikipedia, "Guo Wengui" - https://en.wikipedia.org/wiki/Guo_Wengui
+## Overview
+Guo Wengui (also known as Miles Guo) is a Chinese businessman who became known internationally for political claims and activism from abroad. He has been a polarizing figure, attracting supporters who view him as a whistleblower and critics who dispute his allegations and motives.
+
+## Public profile
+Guo’s prominence grew through media appearances and online channels where he made accusations involving Chinese political and business elites. His activities have intersected with broader themes such as Chinese elite politics, anti‑corruption campaigns, diaspora media ecosystems, and disinformation concerns.
+
+## Legal disputes
+He has been involved in multiple legal controversies reported in public records and major media coverage, including civil litigation and criminal proceedings in the United States. Because these matters can evolve, summaries should distinguish between allegations, charges, and adjudicated findings.
+
+## Significance
+Guo’s case is often discussed as an example of how wealth, politics, and transnational information campaigns can overlap, especially in the era of social media‑driven influence operations.

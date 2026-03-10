@@ -10,7 +10,6 @@ socialLinks:
   wikipedia: "https://en.wikipedia.org/wiki/Wellington_Menezes_de_Oliveira"
 lastUpdated: "2026-02-26"
 ---
-
 ## Summary
 
 Brazilian mass murderer who shot and killed 12 children at an elementary school in Realengo.

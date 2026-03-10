@@ -49,3 +49,18 @@ The genocide has remained central to Guatemala's contemporary politics and memor
 ## References
 
 [^1]: Wikipedia, "Guatemala Genocide" - https://en.wikipedia.org/wiki/Guatemala_Genocide
+## Overview
+“Guatemala genocide” commonly refers to accusations and findings related to mass atrocities committed during Guatemala’s internal armed conflict (1960–1996), particularly against Indigenous Maya communities in the early 1980s. The conflict involved the Guatemalan state and allied forces, guerrilla groups, and civilian populations caught in between.
+
+## Historical context
+In the late 1970s and early 1980s, counterinsurgency campaigns intensified in several regions. Truth-seeking processes after the war, including the UN‑backed Historical Clarification Commission, documented widespread human rights violations and patterns of massacres, forced displacement, and destruction of villages.
+
+## Accountability efforts
+Domestic and international efforts have included:
+- Criminal prosecutions and trials in Guatemalan courts
+- Exhumations and forensic investigations
+- Reparations and memorialization initiatives
+These processes have been politically contentious, reflecting broader struggles over impunity, civil‑military relations, and Indigenous rights.
+
+## Significance
+The case is frequently cited in discussions about transitional justice in Latin America: how societies document atrocities, prosecute perpetrators, and support survivors while rebuilding democratic institutions.

@@ -48,3 +48,24 @@ General of Nuestra Familia prison gang who directed operations from Pelican Bay 
 ## References
 
 [^1]: Wikipedia, "Robert Vásquez" - https://en.wikipedia.org/wiki/Robert_V%C3%A1squez
+
+## How prison-gang leadership can operate (high-level)
+
+- **Communication constraints:** High-security housing and mail monitoring can restrict direct communication, which is why many cases focus on alleged use of intermediaries, coded language, and layered messaging.
+- **Organizational role evidence:** Prosecutors in racketeering cases often argue leadership roles using a mix of testimony, seized correspondence, and patterns of coordinated acts attributed to an enterprise.
+
+## Why timelines are often sparse
+
+- Many of the most detailed facts in prison-gang cases are contained in court filings, sealed records, or investigative journalism that is not consistently summarized in open encyclopedic sources.
+- For repository hygiene, it can be better to keep the timeline short and add detail only when tied to a citable document (indictment, judgment, appellate opinion, etc.).
+
+## Terms used in reporting (context)
+
+- **"General":** A leadership label used in some reporting and law-enforcement narratives; it may not correspond to a formal rank and can vary by source.
+- **RICO / racketeering:** A legal framework used to charge patterns of criminal activity linked to an organization ("enterprise").
+
+## See also
+
+- Nuestra Familia
+- Pelican Bay State Prison
+- RICO (Racketeer Influenced and Corrupt Organizations Act)

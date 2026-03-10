@@ -62,3 +62,23 @@ Glitter’s case is frequently cited in broader discussions of:
 - Glam rock (1970s)
 - Celebrity criminal cases and public memory
 - Safeguarding failures in entertainment contexts
+
+## Cultural Afterlife of the Music
+
+Some of Glitter’s songs had long-standing use in sports arenas and public events. Following convictions, many institutions faced practical choices about:
+
+- whether to stop playing the music in venues,
+- licensing and royalty implications,
+- how to handle legacy media that remains widely recognized.
+
+## Broader Safeguarding Context
+
+The case is frequently referenced in debates about:
+
+- how allegations are escalated and investigated,
+- the responsibilities of managers, promoters, and broadcasters,
+- protecting children in entertainment-adjacent environments (touring, casting, fan access).
+
+## Note on Coverage
+
+Reporting on abuse cases can involve graphic or sensitive details; many encyclopedic summaries deliberately keep descriptions high-level while focusing on verified legal outcomes.

@@ -53,3 +53,13 @@ The massacre is often cited in discussions of Jammeh-era human-rights abuses, in
 
 - Transitional justice in The Gambia
 - State violence and extrajudicial executions
+
+## Key Points (High-Level)
+
+- The victims were largely migrants from across West Africa; the incident is often discussed as an abuse of state power directed at a vulnerable, mobile population.
+- Public accounts emphasize clandestine detention, transport, execution, and concealment, consistent with patterns described in other Jammeh-era allegations.
+- Post-2017 transitional-justice mechanisms brought renewed attention, but long-term accountability depends on prosecutions, reparations, and institutional reform.
+
+## Documentation Notes
+
+Most detailed narratives in public circulation come from later testimony and investigative reporting rather than contemporaneous official records, which is common in cases involving alleged covert security units.

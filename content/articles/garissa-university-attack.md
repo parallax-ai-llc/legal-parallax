@@ -57,3 +57,19 @@ The attack had a lasting impact on Kenyan public life, including national mourni
 - Al-Shabaab insurgency and regional spillover
 - Kenya–Somalia border security
 - Terrorism and protection of educational institutions
+
+## Security Lessons Often Discussed
+
+Post-attack commentary commonly focuses on “soft target” protection challenges, including:
+
+- campus access control and emergency communications,
+- intelligence sharing and rapid-response capacity,
+- balancing counterterrorism with community relations to avoid marginalization.
+
+## Victims and Commemoration
+
+The attack is widely remembered for the scale of student casualties and for subsequent commemorations and public debate about how universities and other civilian institutions should plan for mass-casualty threats.
+
+## Media and Public Narrative
+
+As with many major attacks, initial reporting and later investigations can differ in emphasis (timeline details, preparedness, and accountability), so summaries should be cross-checked against official inquiries and reputable reporting.

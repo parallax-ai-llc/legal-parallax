@@ -10,7 +10,6 @@ socialLinks:
   wikipedia: "https://en.wikipedia.org/wiki/Wayne_Couzens"
 lastUpdated: "2026-02-26"
 ---
-
 ## Summary
 
 Metropolitan Police officer who kidnapped, raped, and murdered Sarah Everard while on duty.

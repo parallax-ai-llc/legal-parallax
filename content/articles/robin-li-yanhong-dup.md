@@ -57,3 +57,21 @@ Because this file is marked as a duplicate, the sections below aim to preserve t
 
 [^1]: Wikipedia, "Robin Li Yanhong dup" - https://en.wikipedia.org/wiki/Robin_Li_Yanhong_dup
 [^2]: Wikipedia, "Robin Li" - https://en.wikipedia.org/wiki/Robin_Li
+
+## Why duplicate stubs still matter
+
+- In pipelines that merge multiple data sources, duplicate identifiers often appear when names are romanized differently (e.g., "Li Yanhong" vs. "Robin Li") or when a source system creates separate entries for the same person.
+- Keeping a short duplicate page can reduce broken links while still nudging readers toward the canonical profile.
+
+## Canonical profile pointers (what to consolidate)
+
+When consolidating this entry into a non-duplicate biography, typical fields to unify include:
+
+- legal name vs. English name and ordering,
+- primary company role(s) and tenure,
+- major corporate milestones with dates,
+- and consistent citations (e.g., a single canonical Wikipedia page, plus stronger secondary sources).
+
+## Repository hygiene
+
+- If/when a canonical article exists in this repo, consider converting this file into a redirect-style page (while keeping the id stable for legacy references).

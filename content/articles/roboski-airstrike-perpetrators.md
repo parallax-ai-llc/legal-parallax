@@ -54,3 +54,23 @@ In many datasets and short encyclopedic summaries, “perpetrators” are record
 ## References
 
 [^1]: Wikipedia, "Roboski Airstrike Perpetrators" - https://en.wikipedia.org/wiki/Roboski_Airstrike_Perpetrators
+
+## Naming / alternate references
+
+- The incident is also widely referred to in English-language reporting as the **Uludere airstrike** or **Uludere massacre**, after the district name Uludere (near Roboski).
+- In many databases, the "perpetrator" field is recorded collectively (state/military) because individual names are not consistently present in public, final judicial outcomes.
+
+## Decision chain (high-level)
+
+Even when the operators are not individually named, public discussions typically distinguish:
+
+- **intelligence inputs** (how the group was identified),
+- **command authorization** (who approved the strike), and
+- **execution** (aircraft/crew carrying out the attack).
+
+This is one reason "perpetrators" can remain ambiguous in open sources: responsibility is distributed across a chain of decisions rather than a single actor.
+
+## Why the event remains politically salient
+
+- The incident is frequently cited in Turkish domestic politics and Kurdish rights advocacy as a test case for civilian protection and state accountability.
+- It is also referenced in broader discussions about airpower, border security, and the risks of misidentification in counterinsurgency environments.

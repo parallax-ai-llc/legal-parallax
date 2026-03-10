@@ -49,3 +49,18 @@ Cases like Shimiray Mwissa's are often cited in discussions about how localized 
 ## References
 
 [^1]: Wikipedia, "Guidon Shimiray Mwissa" - https://en.wikipedia.org/wiki/Guidon_Shimiray_Mwissa
+## Overview
+Guidon Shimiray Mwissa is commonly described as an armed group figure in the eastern Democratic Republic of the Congo (DRC) associated with conflict dynamics in North Kivu, a region affected by recurrent violence involving state forces and multiple non‑state armed groups.
+
+## Context: eastern DRC conflicts
+Eastern DRC has experienced long-running insecurity tied to:
+- Armed group fragmentation and shifting alliances
+- Competition over local power and access to resources
+- Cross-border dynamics and displacement
+- Weak state security presence and abuses by multiple actors
+
+## Reported relevance
+Accounts about individuals linked to armed groups often arise in the context of alleged attacks on civilians, local community protection narratives, recruitment, and the negotiation or breakdown of ceasefires. The details can be disputed and may vary by source, reflecting the complexity and politicization of reporting in conflict zones.
+
+## How to read sources
+For topics like this, reliable context usually comes from a mix of UN reporting, human rights organizations, and local journalism, with attention to corroboration and dates.

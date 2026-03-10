@@ -52,3 +52,14 @@ Cryptocurrency exchange Bybit was hacked for approximately $1.5 billion in Ether
 
 - Cryptocurrency exchange security
 - Lazarus Group (cybercrime)
+
+## Investigation and Attribution (Context)
+
+- **Attribution limits:** Linking an incident to a specific group is usually based on a combination of infrastructure reuse, malware/tooling similarities, operational patterns, and intelligence reporting; these signals can be strong but are rarely absolute proof.
+- **Exchange-side evidence:** In exchange hacks, investigators often focus on privileged-access logs, signing workflows, insider-risk controls, and any compromise of devices used for key management.
+- **On-chain analytics:** Blockchain forensics can map flows across addresses and services, helping identify laundering patterns even when attackers attempt obfuscation.
+
+## Broader Lessons (High-Level)
+
+- **Custody architecture matters:** Security discussions frequently emphasize segregated wallets, rate-limited withdrawals, multi-party authorization, and hardened key-management procedures.
+- **Operational resilience:** Incidents of this size typically lead to renewed attention on incident response playbooks, communications discipline, and external security audits.

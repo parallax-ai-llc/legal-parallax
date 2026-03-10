@@ -50,3 +50,29 @@ Scholarly and political debate continues regarding:
 ## Sources and estimates
 
 Because the campaign included classified components and because wartime record-keeping is imperfect, researchers have used multiple sources (official logs, archival releases, field surveys, and historical reconstructions) to estimate scale and impact, often reaching different numerical conclusions.
+
+## Geopolitical and strategic context
+
+The strikes occurred during a period when U.S. leaders sought to reduce American ground involvement in Vietnam while maintaining pressure on North Vietnamese forces. Cambodian territory was viewed (by U.S. planners) as hosting cross-border supply routes and sanctuaries, while Cambodia's internal politics and neutrality claims made the expansion of the air war especially contentious.
+
+## Domestic U.S. political consequences
+
+In the United States, the Cambodia bombing and related operations became entangled with broader debates about executive war powers and transparency. The controversy contributed to:
+
+- intensified congressional scrutiny of military operations,
+- legal and constitutional arguments about authorization,
+- and a shift toward formal limits and reporting requirements intended to constrain secret or unilateral escalation.
+
+## Cambodian consequences (long-run framing)
+
+Historians often place the bombing within a chain of shocks that affected Cambodia's social fabric:
+
+- rural displacement and the breakdown of local governance,
+- economic disruption and the destruction of infrastructure,
+- and an environment in which armed factions could recruit and mobilize.
+
+The relative weight of bombing versus other drivers of conflict remains debated, but the episode is widely treated as a major stressor during an already volatile period.
+
+## Why it remains studied
+
+The bombing of Cambodia is frequently used as a case study for how air power, secrecy, and political oversight intersect, and for how indirect effects (displacement, legitimacy erosion, and radicalization) can outlast the immediate military campaign.

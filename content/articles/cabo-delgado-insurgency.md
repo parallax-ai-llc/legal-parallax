@@ -48,3 +48,10 @@ ISIS-linked insurgency in northern Mozambique killed thousands and displaced ove
 ## References
 
 [^1]: Wikipedia, "Cabo Delgado Insurgency" - https://en.wikipedia.org/wiki/Cabo_Delgado_Insurgency
+
+## Stabilization and Long-Term Challenges (High-Level)
+
+- **Civilian protection and returns:** Even when towns are retaken, the ability of displaced people to return depends on security, access to land, and restoration of basic services.
+- **Governance and accountability:** Analysts often argue that durable stabilization requires improvements in local governance, anti-corruption measures, and credible mechanisms to address abuses by any armed actor.
+- **Economic inclusion:** Managing expectations around resource projects (jobs, revenue sharing, local development) is frequently cited as important to reducing recruitment incentives.
+- **Humanitarian access:** Ongoing insecurity can limit aid delivery, while repeated displacement strains host communities and provincial infrastructure.

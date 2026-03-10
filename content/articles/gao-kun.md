@@ -54,3 +54,19 @@ If another article in this collection uses the English form “Charles Kuen Kao,
 - Fiber-optic communication
 - Attenuation and signal loss in optical media
 - Nobel Prize in Physics (2009)
+
+## Why Fiber Optics Mattered
+
+At a systems level, low-loss optical fiber enabled:
+
+- high-bandwidth, long-distance data transmission,
+- lower cost per bit over large distances compared to many earlier media,
+- the scaling of global telecom networks and internet backbones.
+
+## Technical Framing (Simplified)
+
+A common way to summarize Kao’s contribution is that he helped shift the question from “light cannot travel far in fiber” to “light can travel far if the material is made sufficiently pure and engineered for low attenuation.”
+
+## Naming Note
+
+“Gao Kun” appears as a transliteration in Chinese contexts; “Charles Kuen Kao” is widely used in English-language sources for the same person.

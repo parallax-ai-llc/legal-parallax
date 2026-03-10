@@ -49,3 +49,24 @@ Brazilian criminal organization that controlled major favelas in Rio de Janeiro.
 ## Notes on Sources
 
 Because details can vary by reporting period and by neighborhood, summaries should be treated as time‑specific and cross‑checked against multiple reputable sources when used for research or policy analysis.
+
+## Rio de Janeiro context (high-level)
+
+Analyses of Rio’s factional landscape commonly note several structural factors:
+
+- **Territoriality**: control is often described at the neighborhood level, with boundaries that can shift after confrontations or arrests.
+- **Armed capability and signaling**: visible weapons and checkpoints are frequently reported as mechanisms to deter rival incursions and police entry.
+- **Links to prison dynamics**: in Brazil, some criminal organizations have been discussed in relation to prison-based organization and the circulation of leadership and alliances.
+
+## Policing and public security (context)
+
+- Rio has experienced multiple cycles of security policy (including large-scale operations and community-policing initiatives), and shifts in strategy have been discussed as affecting which factions hold territory and how violence concentrates.
+- Reporting often distinguishes between short-term tactical gains (e.g., raids, seizures, arrests) and the longer-term challenges of sustained state presence and service provision.
+
+## Research notes
+
+For a careful, neutral expansion, consider separating:
+
+- confirmed leadership and dates (with citations),
+- neighborhood-by-neighborhood control claims (time-bounded),
+- and broader commentary about Brazilian organized crime that may not be specific to ADA.

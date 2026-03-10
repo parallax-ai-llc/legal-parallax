@@ -50,3 +50,27 @@ As President, Tinubu has faced the typical challenges of Nigeria's macroeconomic
 ## Further reading
 
 For a fuller accounting, see the linked Wikipedia article and the election coverage and investigative reporting it cites.
+
+## Coalition politics (why he matters domestically)
+
+Tinubu is often discussed as a case study in how Nigerian national coalitions are assembled:
+
+- regional power balancing across Nigeria's geopolitical zones,
+- party discipline and candidate selection,
+- and the role of state-level networks (especially Lagos) in financing and organizing national campaigns.
+
+## Governance challenges associated with his administration
+
+Analysts typically group the major issues facing any Nigerian presidency into a few persistent categories:
+
+- inflation and currency stability,
+- energy supply and fuel pricing,
+- public finance and debt sustainability,
+- internal security challenges (insurgency, banditry, communal conflict),
+- and institutional trust (anti-corruption enforcement and service delivery).
+
+Tinubu's presidency is evaluated through the same lens, with debate over whether policy moves represent durable reform or short-term crisis management.
+
+## Public perception
+
+Tinubu's support base often highlights political experience and organizational effectiveness, while critics emphasize transparency concerns and elite bargaining. The intensity of these views reflects Nigeria's competitive, highly regionalized political environment.
