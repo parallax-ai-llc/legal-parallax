@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Search, GitPullRequest, Pencil, MapIcon } from "lucide-react";
+import { Search, GitPullRequest, Pencil } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
 
@@ -17,7 +17,7 @@ export function Header({ onSearchClick, showContribute, editUrl }: HeaderProps) 
       <div className="flex h-14 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2">
           <span className="font-serif text-xl font-semibold tracking-tight font-bold">
-            Historical Parallax
+            Legal Parallax
           </span>
         </Link>
 
@@ -28,7 +28,7 @@ export function Header({ onSearchClick, showContribute, editUrl }: HeaderProps) 
             onClick={onSearchClick}
           >
             <Search className="mr-2 h-4 w-4" />
-            <span>Search...</span>
+            <span>Search cases...</span>
             <kbd className="pointer-events-none ml-auto hidden h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex">
               <span className="text-xs">Ctrl</span>K
             </kbd>
@@ -55,14 +55,6 @@ export function Header({ onSearchClick, showContribute, editUrl }: HeaderProps) 
               </a>
             </Button>
           )}
-          <Link
-            href="/maps/ufo-mysteries"
-            className="hidden sm:inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 hover:bg-accent hover:text-accent-foreground h-9 w-9"
-            title="View Incident Maps"
-          >
-            <MapIcon className="h-4 w-4" />
-            <span className="sr-only">Maps</span>
-          </Link>
 
           <ThemeToggle />
         </div>

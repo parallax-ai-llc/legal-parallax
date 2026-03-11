@@ -39,6 +39,9 @@ yarn-error.log*
 # data collector (managed separately in tool-factory)
 /data-collector
 
+# legal parallax scripts (internal tools, not public)
+/scripts
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

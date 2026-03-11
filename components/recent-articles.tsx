@@ -8,6 +8,7 @@ export interface RecentArticle {
   name: string;
   nationality?: string;
   lastUpdated?: string;
+  type?: "article" | "case";
 }
 
 interface RecentArticlesProps {
@@ -222,7 +223,7 @@ export function RecentArticles({ articles }: RecentArticlesProps) {
         </div>
 
         <Link
-          href={`/a/${currentArticle.id}`}
+          href={currentArticle.type === "case" ? `/c/${currentArticle.id}` : `/a/${currentArticle.id}`}
           onClick={(e) => {
             // Prevent navigation if dragging
             if (Math.abs(dragOffset) > 5) {

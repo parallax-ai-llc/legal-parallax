@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { Search, Pencil, MapIcon } from "lucide-react";
+import { Search, Pencil } from "lucide-react";
 import Link from "next/link";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
@@ -50,10 +50,10 @@ function HeaderClient({ onSearchClick, editUrl }: HeaderClientProps) {
         <Link
           href="/"
           className="flex items-center gap-2 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-          aria-label="Historical Parallax - Go to home page"
+          aria-label="Legal Parallax - Go to home page"
         >
           <span className="font-serif text-xl md:text-2xl font-bold tracking-tight">
-            Historical Parallax
+            Legal Parallax
           </span>
         </Link>
 
@@ -66,7 +66,7 @@ function HeaderClient({ onSearchClick, editUrl }: HeaderClientProps) {
             aria-haspopup="dialog"
           >
             <Search className="mr-2 h-4 w-4" aria-hidden="true" />
-            <span>Search...</span>
+            <span>Search cases...</span>
             <kbd
               className="pointer-events-none ml-auto hidden h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex"
               aria-hidden="true"
@@ -98,14 +98,6 @@ function HeaderClient({ onSearchClick, editUrl }: HeaderClientProps) {
               <span>Edit</span>
             </a>
           )}
-          <Link
-            href="/maps/ufo-mysteries"
-            className="hidden sm:inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 hover:bg-accent hover:text-accent-foreground h-9 w-9"
-            title="View Incident Maps"
-          >
-            <MapIcon className="h-4 w-4" />
-            <span className="sr-only">Maps</span>
-          </Link>
           <ThemeToggle />
         </nav>
       </div>

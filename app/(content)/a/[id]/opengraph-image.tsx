@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { getArticle, getAllArticleIds } from "@/lib/articles";
 
-export const alt = "Historical Parallax";
+export const alt = "Legal Parallax";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -72,7 +72,7 @@ export default async function Image({ params }: { params: Promise<{ id: string }
         }}
       >
         <div style={{ fontSize: "28px", color: "#666", letterSpacing: "0.1em" }}>
-          HISTORICAL PARALLAX
+          LEGAL PARALLAX
         </div>
         {nationality && (
           <div
@@ -119,8 +119,8 @@ export default async function Image({ params }: { params: Promise<{ id: string }
           borderTop: "1px solid #222",
         }}
       >
-        <div style={{ fontSize: "20px", color: "#555" }}>Multiple Perspectives on History</div>
-        <div style={{ fontSize: "20px", color: "#555" }}>historical.parallax.kr</div>
+        <div style={{ fontSize: "20px", color: "#555" }}>Multiple Perspectives on Law</div>
+        <div style={{ fontSize: "20px", color: "#555" }}>legal.parallax.kr</div>
       </div>
     </div>,
     {

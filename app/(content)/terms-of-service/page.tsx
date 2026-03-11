@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Terms of Service - Historical Parallax",
-  description: "Terms of Service for Historical Parallax",
+  title: "Terms of Service - Legal Parallax",
+  description: "Terms of Service for Legal Parallax",
 };
 
 export default function TermsOfServicePage() {
@@ -13,13 +13,13 @@ export default function TermsOfServicePage() {
 
         <h2>1. Acceptance of Terms</h2>
         <p>
-          By accessing and using Historical Parallax, you accept and agree to be bound by the terms
+          By accessing and using Legal Parallax, you accept and agree to be bound by the terms
           and provisions of this agreement.
         </p>
 
         <h2>2. Use of Service</h2>
         <p>
-          Historical Parallax provides informational content about historical figures and events.
+          Legal Parallax provides informational content about historical figures and events.
           The content is provided for educational and reference purposes only.
         </p>
 
@@ -32,8 +32,8 @@ export default function TermsOfServicePage() {
 
         <h2>4. Multiple Perspectives</h2>
         <p>
-          Historical Parallax presents multiple perspectives on historical figures and events. The
-          inclusion of any perspective does not constitute endorsement by Historical Parallax or its
+          Legal Parallax presents multiple perspectives on historical figures and events. The
+          inclusion of any perspective does not constitute endorsement by Legal Parallax or its
           operators.
         </p>
 
@@ -45,14 +45,14 @@ export default function TermsOfServicePage() {
 
         <h2>6. Intellectual Property</h2>
         <p>
-          The content, organization, and presentation of Historical Parallax are protected by
+          The content, organization, and presentation of Legal Parallax are protected by
           copyright and other intellectual property laws. Images and media may be subject to
           separate licenses as indicated.
         </p>
 
         <h2>7. Limitation of Liability</h2>
         <p>
-          In no event shall Historical Parallax or its operators be liable for any direct, indirect,
+          In no event shall Legal Parallax or its operators be liable for any direct, indirect,
           incidental, special, or consequential damages arising from the use of this service.
         </p>
 

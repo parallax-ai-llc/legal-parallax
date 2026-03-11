@@ -18,19 +18,19 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: {
-    default: "Historical Parallax",
-    template: "%s | Historical Parallax",
+    default: "Legal Parallax",
+    template: "%s | Legal Parallax",
   },
-  description: "Explore historical figures and events from multiple perspectives",
-  keywords: ["history", "figures", "politics", "biography", "encyclopedia", "historical figures"],
+  description: "Explore history, law, and global events from multiple perspectives",
+  keywords: ["history", "law", "legal", "cases", "comparative law", "figures", "politics", "biography", "encyclopedia"],
   authors: [{ name: "Parallax AI" }],
   creator: "Parallax AI",
   metadataBase: new URL("https://historical.parallax.kr"),
   openGraph: {
-    title: "Historical Parallax",
-    description: "Explore historical figures and events from multiple perspectives",
+    title: "Legal Parallax",
+    description: "Explore history, law, and global events from multiple perspectives",
     url: "https://historical.parallax.kr",
-    siteName: "Historical Parallax",
+    siteName: "Legal Parallax",
     type: "website",
     locale: "en_US",
     images: [
@@ -38,14 +38,14 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Historical Parallax",
+        alt: "Legal Parallax",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Historical Parallax",
-    description: "Explore historical figures and events from multiple perspectives",
+    title: "Legal Parallax",
+    description: "Explore history, law, and global events from multiple perspectives",
     images: ["/og-image.png"],
   },
   icons: {

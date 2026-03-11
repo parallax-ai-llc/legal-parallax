@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: MapPageProps) {
   }
 
   return {
-    title: `${category.name} - Historical Parallax`,
+    title: `${category.name} - Legal Parallax`,
     description: category.description,
   };
 }

@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Privacy Policy - Historical Parallax",
-  description: "Privacy Policy for Historical Parallax",
+  title: "Privacy Policy - Legal Parallax",
+  description: "Privacy Policy for Legal Parallax",
 };
 
 export default function PrivacyPolicyPage() {
@@ -13,13 +13,13 @@ export default function PrivacyPolicyPage() {
 
         <h2>1. Introduction</h2>
         <p>
-          Historical Parallax is committed to protecting your privacy. This policy explains how we
+          Legal Parallax is committed to protecting your privacy. This policy explains how we
           handle any information when you use our service.
         </p>
 
         <h2>2. Information We Collect</h2>
         <p>
-          Historical Parallax does not require user registration or login. We do not collect
+          Legal Parallax does not require user registration or login. We do not collect
           personal information from our users.
         </p>
         <p>

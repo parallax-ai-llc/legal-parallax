@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Historical Parallax";
+export const alt = "Legal Parallax";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -54,7 +54,7 @@ export default async function Image() {
           marginBottom: "20px",
         }}
       >
-        Historical Parallax
+        Legal Parallax
       </div>
       <div
         style={{
@@ -62,7 +62,7 @@ export default async function Image() {
           color: "#888",
         }}
       >
-        Every history creates a parallax
+        Every perspective creates a parallax
       </div>
     </div>,
     {

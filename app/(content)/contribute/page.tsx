@@ -4,7 +4,7 @@ import { Separator } from "@/components/ui/separator";
 
 export const metadata = {
   title: "Contribute",
-  description: "Learn how to contribute to Historical Parallax by creating or editing articles.",
+  description: "Learn how to contribute to Legal Parallax by creating or editing articles.",
 };
 
 const GITHUB_REPO = "https://github.com/parallax-ai-llc/historical-parallax";
@@ -15,10 +15,10 @@ export default function ContributePage() {
       <main className="container max-w-4xl py-12 px-4">
         <div className="space-y-2 mb-8">
           <h1 className="font-sans text-4xl font-bold tracking-tight">
-            Contribute to Historical Parallax
+            Contribute to Legal Parallax
           </h1>
           <p className="text-lg text-muted-foreground">
-            Help us build a comprehensive, balanced resource on historical figures and events.
+            Help us build a comprehensive, balanced resource on legal cases and comparative law across jurisdictions.
           </p>
         </div>
 
@@ -45,9 +45,9 @@ export default function ContributePage() {
           <p className="text-muted-foreground">
             We accept contributions in the form of Markdown files located in the{" "}
             <code className="px-1.5 py-0.5 rounded bg-muted font-mono text-sm">
-              content/articles/
+              content/cases/
             </code>{" "}
-            directory. You can either create new articles or improve existing ones.
+            directory. You can either create new legal case comparisons or improve existing ones.
           </p>
         </section>
 
@@ -55,7 +55,7 @@ export default function ContributePage() {
         <section className="space-y-6 mb-12">
           <h2 className="font-sans text-2xl font-semibold flex items-center gap-2">
             <FileEdit className="h-6 w-6" />
-            Creating a New Article
+            Creating a New Case Comparison
           </h2>
 
           <div className="space-y-4">
@@ -109,25 +109,25 @@ export default function ContributePage() {
                 4
               </div>
               <div className="space-y-2 min-w-0 flex-1">
-                <h3 className="font-semibold">Create Your Article</h3>
+                <h3 className="font-semibold">Create Your Case File</h3>
                 <p className="text-muted-foreground">
                   Create a new file in{" "}
                   <code className="px-1.5 py-0.5 rounded bg-muted font-mono text-sm">
-                    content/articles/
+                    content/cases/
                   </code>{" "}
                   with the naming format:
                 </p>
                 <pre className="p-3 rounded-lg bg-muted overflow-x-auto text-sm max-w-full">
-                  <code>firstname-lastname.md</code>
+                  <code>topic-law-comparison.md</code>
                 </pre>
                 <p className="text-sm text-muted-foreground">
                   Example:{" "}
                   <code className="px-1 py-0.5 rounded bg-muted font-mono text-xs">
-                    winston-churchill.md
+                    murder-law-comparison.md
                   </code>
                   ,{" "}
                   <code className="px-1 py-0.5 rounded bg-muted font-mono text-xs">
-                    cleopatra-vii.md
+                    fraud-law-comparison.md
                   </code>
                 </p>
               </div>
@@ -140,9 +140,9 @@ export default function ContributePage() {
               <div className="space-y-2 min-w-0 flex-1">
                 <h3 className="font-semibold">Commit and Push</h3>
                 <pre className="p-3 rounded-lg bg-muted overflow-x-auto text-sm max-w-full">
-                  <code>{`git add content/articles/your-article.md
-git commit -m "Add article on [Person Name]"
-git push origin feature/add-article-name`}</code>
+                  <code>{`git add content/cases/your-case.md
+git commit -m "Add case comparison on [Topic]"
+git push origin feature/add-case-topic`}</code>
                 </pre>
               </div>
             </div>
@@ -166,47 +166,43 @@ git push origin feature/add-article-name`}</code>
 
         {/* Article Format */}
         <section className="space-y-6 mb-12">
-          <h2 className="font-sans text-2xl font-semibold">Article Format</h2>
+          <h2 className="font-sans text-2xl font-semibold">Case Comparison Format</h2>
           <p className="text-muted-foreground">
-            Every article must follow this exact Markdown structure:
+            Every case comparison must follow this exact Markdown structure:
           </p>
 
           <pre className="p-4 rounded-lg bg-muted overflow-x-auto text-sm leading-relaxed max-w-full">
             <code>{`---
-id: "firstname-lastname"
-name: "Full Name"
-birth: "YYYY-MM-DD"
-death: "YYYY-MM-DD"
-nationality: "Country"
-occupation: ["Occupation1", "Occupation2"]
-image: "https://upload.wikimedia.org/wikipedia/commons/..."
+id: "topic-law-comparison"
+name: "Topic: Cross-Jurisdictional Comparison"
+date: "YYYY-MM-DD"
+nationality: "Global"
+occupation: ["Legal Analysis", "Criminal Law", "Comparative Law"]
+image: ""
 socialLinks:
   wikipedia: "https://en.wikipedia.org/wiki/..."
 lastUpdated: "YYYY-MM-DD"
 ---
 
 ## Summary
-A 3-4 sentence overview of the person's significance.
+A 3-4 sentence overview comparing approaches across jurisdictions.
 
-## Early Life
-Birth, family background, education. Include citations [^1].
+## South Korea
+Legal framework, key cases, penalties [^1].
 
-## Middle Years
-Main career achievements and key events [^2].
+## United States
+Federal/state laws, landmark cases [^2].
 
-## Later Life
-Final years and legacy [^3].
+## Germany
+StGB provisions, penalties, key cases [^3].
 
-## Positive Perspectives
-- Positive point 1 with citation [^4]
-- Positive point 2 with citation [^5]
+## European Framework
+ECHR/EU directives, landmark rulings [^4].
 
-## Negative Perspectives
-- Criticism or controversy 1 [^6]
-- Criticism or controversy 2 [^7]
-
-## Recent News
-Recent news or developments (if applicable).
+## Comparative Analysis
+| Aspect | South Korea | United States | Germany | ECHR |
+|--------|-----------|---------------|---------|------|
+| Max Penalty | ... | ... | ... | ... |
 
 ## Career Timeline
 | Year | Event |
@@ -214,8 +210,8 @@ Recent news or developments (if applicable).
 | YYYY | Description |
 
 ## References
-[^1]: Author, "Title" (Year). URL
-[^2]: Author, "Title" (Year). URL`}</code>
+[^1]: Source with URL
+[^2]: Source with URL`}</code>
           </pre>
         </section>
 
@@ -233,10 +229,10 @@ Recent news or developments (if applicable).
               </div>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>• Write all content in English</li>
-                <li>• Include both positive and negative perspectives</li>
-                <li>• Cite every factual claim with footnotes</li>
-                <li>• Use reputable sources (academic, news organizations)</li>
-                <li>• Use Wikimedia Commons images only</li>
+                <li>• Include multiple jurisdictions (KR, US, DE, EU minimum)</li>
+                <li>• Cite every legal provision and case with footnotes</li>
+                <li>• Use official legal sources (court databases, statutes)</li>
+                <li>• Include a comparative analysis table</li>
                 <li>• Use ISO date format (YYYY-MM-DD)</li>
               </ul>
             </div>
@@ -250,11 +246,11 @@ Recent news or developments (if applicable).
               </div>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>• Modify code or configuration files</li>
-                <li>• Use copyrighted images</li>
-                <li>• Include unsourced claims</li>
-                <li>• Write biased or one-sided content</li>
+                <li>• Provide legal advice or opinions</li>
+                <li>• Include unsourced legal claims</li>
+                <li>• Cover only one jurisdiction</li>
                 <li>• Include promotional material</li>
-                <li>• Add personal opinions without attribution</li>
+                <li>• Add personal legal interpretations without citation</li>
               </ul>
             </div>
           </div>
@@ -266,19 +262,19 @@ Recent news or developments (if applicable).
         <section className="space-y-6 mb-12">
           <h2 className="font-sans text-2xl font-semibold flex items-center gap-2">
             <GitPullRequest className="h-6 w-6" />
-            Editing Existing Articles
+            Editing Existing Cases
           </h2>
 
-          <p className="text-muted-foreground">To edit an existing article:</p>
+          <p className="text-muted-foreground">To edit an existing case comparison:</p>
 
           <ol className="space-y-3 text-muted-foreground">
             <li className="flex gap-3">
               <span className="font-semibold text-foreground">1.</span>
-              Navigate to the article page on our website
+              Navigate to the case page on our website
             </li>
             <li className="flex gap-3">
               <span className="font-semibold text-foreground">2.</span>
-              Click the &quot;Edit&quot; button in the header to go directly to the file on GitHub
+              Click the &quot;Edit this page on GitHub&quot; link at the bottom of the page
             </li>
             <li className="flex gap-3">
               <span className="font-semibold text-foreground">3.</span>
@@ -292,14 +288,14 @@ Recent news or developments (if applicable).
 
           <div className="p-4 rounded-lg bg-muted/50 border">
             <p className="text-sm">
-              <strong>Tip:</strong> You can also browse all articles directly at{" "}
+              <strong>Tip:</strong> You can also browse all case comparisons directly at{" "}
               <a
-                href={`${GITHUB_REPO}/tree/main/content/articles`}
+                href={`${GITHUB_REPO}/tree/main/content/cases`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
               >
-                {GITHUB_REPO}/tree/main/content/articles
+                {GITHUB_REPO}/tree/main/content/cases
               </a>
             </p>
           </div>
@@ -323,7 +319,7 @@ Recent news or developments (if applicable).
         <div className="flex flex-col items-center gap-4 py-8 text-center">
           <h2 className="font-sans text-2xl font-semibold">Ready to Contribute?</h2>
           <p className="text-muted-foreground max-w-md">
-            Your contributions help create a more comprehensive understanding of history.
+            Your contributions help create a more comprehensive understanding of law across jurisdictions.
           </p>
           <div className="flex gap-3">
             <Button asChild size="lg">

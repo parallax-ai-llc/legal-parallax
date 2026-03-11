@@ -1,13 +1,13 @@
 import { MetadataRoute } from "next";
 import { getAllArticleIds } from "@/lib/articles";
+import { getAllCaseIds } from "@/lib/cases";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://historical.parallax.kr";
 
-  // Get all article IDs
   const articleIds = getAllArticleIds();
+  const caseIds = getAllCaseIds();
 
-  // Static pages
   const staticPages: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
@@ -35,7 +35,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Article pages
   const articlePages: MetadataRoute.Sitemap = articleIds.map((id) => ({
     url: `${baseUrl}/a/${id}`,
     lastModified: new Date(),
@@ -43,5 +42,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...articlePages];
+  const casePages: MetadataRoute.Sitemap = caseIds.map((id) => ({
+    url: `${baseUrl}/c/${id}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...articlePages, ...casePages];
 }

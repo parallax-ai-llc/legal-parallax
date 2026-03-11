@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { useRouter } from "next/navigation";
-import { Search } from "lucide-react";
+import { Search, Scale } from "lucide-react";
 import {
   CommandDialog,
   CommandEmpty,
@@ -17,6 +17,7 @@ export interface SearchItem {
   name: string;
   nationality?: string;
   summary?: string;
+  type?: "article" | "case";
 }
 
 interface SearchDialogProps {
@@ -30,7 +31,7 @@ export function SearchDialog({ open, onOpenChange, items }: SearchDialogProps) {
   const [search, setSearch] = React.useState("");
 
   const filteredItems = React.useMemo(() => {
-    if (!search) return items.slice(0, 10);
+    if (!search) return items.slice(0, 15);
 
     const lowerSearch = search.toLowerCase();
     return items
@@ -39,11 +40,15 @@ export function SearchDialog({ open, onOpenChange, items }: SearchDialogProps) {
           item.name.toLowerCase().includes(lowerSearch) ||
           item.nationality?.toLowerCase().includes(lowerSearch)
       )
-      .slice(0, 10);
+      .slice(0, 15);
   }, [items, search]);
 
-  const handleSelect = (id: string) => {
-    router.push(`/a/${id}`);
+  const articles = filteredItems.filter((item) => item.type !== "case");
+  const cases = filteredItems.filter((item) => item.type === "case");
+
+  const handleSelect = (item: SearchItem) => {
+    const path = item.type === "case" ? `/c/${item.id}` : `/a/${item.id}`;
+    router.push(path);
     onOpenChange(false);
     setSearch("");
   };
@@ -64,28 +69,48 @@ export function SearchDialog({ open, onOpenChange, items }: SearchDialogProps) {
     <CommandDialog
       open={open}
       onOpenChange={onOpenChange}
-      title="Search articles"
-      description="Search for historical articles by name or nationality"
+      title="Search"
+      description="Search for articles and legal cases"
     >
-      <CommandInput placeholder="Search articles..." value={search} onValueChange={setSearch} />
+      <CommandInput placeholder="Search articles and cases..." value={search} onValueChange={setSearch} />
       <CommandList>
         <CommandEmpty>No results found.</CommandEmpty>
-        <CommandGroup heading="Articles">
-          {filteredItems.map((item) => (
-            <CommandItem
-              key={item.id}
-              value={item.id}
-              onSelect={() => handleSelect(item.id)}
-              className="cursor-pointer"
-            >
-              <Search className="mr-2 h-4 w-4" />
-              <span className="font-medium">{item.name}</span>
-              {item.nationality && (
-                <span className="ml-auto text-xs text-muted-foreground">{item.nationality}</span>
-              )}
-            </CommandItem>
-          ))}
-        </CommandGroup>
+        {articles.length > 0 && (
+          <CommandGroup heading="Articles">
+            {articles.map((item) => (
+              <CommandItem
+                key={`article-${item.id}`}
+                value={`article-${item.id}`}
+                onSelect={() => handleSelect(item)}
+                className="cursor-pointer"
+              >
+                <Search className="mr-2 h-4 w-4" />
+                <span className="font-medium">{item.name}</span>
+                {item.nationality && (
+                  <span className="ml-auto text-xs text-muted-foreground">{item.nationality}</span>
+                )}
+              </CommandItem>
+            ))}
+          </CommandGroup>
+        )}
+        {cases.length > 0 && (
+          <CommandGroup heading="Legal Cases">
+            {cases.map((item) => (
+              <CommandItem
+                key={`case-${item.id}`}
+                value={`case-${item.id}`}
+                onSelect={() => handleSelect(item)}
+                className="cursor-pointer"
+              >
+                <Scale className="mr-2 h-4 w-4" />
+                <span className="font-medium">{item.name}</span>
+                {item.nationality && (
+                  <span className="ml-auto text-xs text-muted-foreground">{item.nationality}</span>
+                )}
+              </CommandItem>
+            ))}
+          </CommandGroup>
+        )}
       </CommandList>
     </CommandDialog>
   );

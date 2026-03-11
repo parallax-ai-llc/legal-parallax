@@ -1,0 +1,159 @@
+{
+  "kr": [
+    {
+      "id": "supreme-court-kr",
+      "name": "대법원",
+      "nameEn": "Supreme Court of Korea",
+      "coordinates": [127.0030, 37.5306],
+      "type": "supreme"
+    },
+    {
+      "id": "constitutional-court-kr",
+      "name": "헌법재판소",
+      "nameEn": "Constitutional Court of Korea",
+      "coordinates": [126.9752, 37.5725],
+      "type": "constitutional"
+    },
+    {
+      "id": "seoul-high-court",
+      "name": "서울고등법원",
+      "nameEn": "Seoul High Court",
+      "coordinates": [127.0030, 37.5306],
+      "type": "high"
+    },
+    {
+      "id": "seoul-central-district-court",
+      "name": "서울중앙지방법원",
+      "nameEn": "Seoul Central District Court",
+      "coordinates": [126.9737, 37.5563],
+      "type": "district"
+    },
+    {
+      "id": "busan-high-court",
+      "name": "부산고등법원",
+      "nameEn": "Busan High Court",
+      "coordinates": [129.0567, 35.1540],
+      "type": "high"
+    },
+    {
+      "id": "daegu-high-court",
+      "name": "대구고등법원",
+      "nameEn": "Daegu High Court",
+      "coordinates": [128.6014, 35.8714],
+      "type": "high"
+    },
+    {
+      "id": "gwangju-high-court",
+      "name": "광주고등법원",
+      "nameEn": "Gwangju High Court",
+      "coordinates": [126.8526, 35.1595],
+      "type": "high"
+    },
+    {
+      "id": "daejeon-high-court",
+      "name": "대전고등법원",
+      "nameEn": "Daejeon High Court",
+      "coordinates": [127.3845, 36.3504],
+      "type": "high"
+    }
+  ],
+  "us": [
+    {
+      "id": "scotus",
+      "name": "Supreme Court of the United States",
+      "coordinates": [-77.0046, 38.8906],
+      "type": "supreme"
+    },
+    {
+      "id": "ca1",
+      "name": "First Circuit Court of Appeals",
+      "city": "Boston, MA",
+      "coordinates": [-71.0589, 42.3601],
+      "type": "circuit"
+    },
+    {
+      "id": "ca2",
+      "name": "Second Circuit Court of Appeals",
+      "city": "New York, NY",
+      "coordinates": [-74.0060, 40.7128],
+      "type": "circuit"
+    },
+    {
+      "id": "ca3",
+      "name": "Third Circuit Court of Appeals",
+      "city": "Philadelphia, PA",
+      "coordinates": [-75.1652, 39.9526],
+      "type": "circuit"
+    },
+    {
+      "id": "ca4",
+      "name": "Fourth Circuit Court of Appeals",
+      "city": "Richmond, VA",
+      "coordinates": [-77.4360, 37.5407],
+      "type": "circuit"
+    },
+    {
+      "id": "ca5",
+      "name": "Fifth Circuit Court of Appeals",
+      "city": "New Orleans, LA",
+      "coordinates": [-90.0715, 29.9511],
+      "type": "circuit"
+    },
+    {
+      "id": "ca6",
+      "name": "Sixth Circuit Court of Appeals",
+      "city": "Cincinnati, OH",
+      "coordinates": [-84.5120, 39.1031],
+      "type": "circuit"
+    },
+    {
+      "id": "ca7",
+      "name": "Seventh Circuit Court of Appeals",
+      "city": "Chicago, IL",
+      "coordinates": [-87.6298, 41.8781],
+      "type": "circuit"
+    },
+    {
+      "id": "ca8",
+      "name": "Eighth Circuit Court of Appeals",
+      "city": "St. Louis, MO",
+      "coordinates": [-90.1994, 38.6270],
+      "type": "circuit"
+    },
+    {
+      "id": "ca9",
+      "name": "Ninth Circuit Court of Appeals",
+      "city": "San Francisco, CA",
+      "coordinates": [-122.4194, 37.7749],
+      "type": "circuit"
+    },
+    {
+      "id": "ca10",
+      "name": "Tenth Circuit Court of Appeals",
+      "city": "Denver, CO",
+      "coordinates": [-104.9903, 39.7392],
+      "type": "circuit"
+    },
+    {
+      "id": "ca11",
+      "name": "Eleventh Circuit Court of Appeals",
+      "city": "Atlanta, GA",
+      "coordinates": [-84.3880, 33.7490],
+      "type": "circuit"
+    },
+    {
+      "id": "cadc",
+      "name": "D.C. Circuit Court of Appeals",
+      "city": "Washington, D.C.",
+      "coordinates": [-77.0046, 38.8951],
+      "type": "circuit"
+    },
+    {
+      "id": "cafc",
+      "name": "Federal Circuit Court of Appeals",
+      "city": "Washington, D.C.",
+      "coordinates": [-77.0046, 38.8951],
+      "type": "circuit"
+    }
+  ]
+}
