@@ -205,6 +205,20 @@ Muhammad's relations with the Jewish tribes of Medina deteriorated as his politi
 
 ---
 
+## Scholarly Perspectives
+
+Western academic scholarship on Muhammad has evolved dramatically over the centuries. Medieval European perspectives were largely hostile — portraying him as an impostor, a lunatic, or the Antichrist — shaped by Christian theological needs to delegitimize Islam. The Enlightenment brought more sympathetic but often condescending assessments, viewing him as a remarkable human leader whose success owed more to political genius than divine guidance.
+
+The 20th century saw the development of serious historical-critical scholarship on early Islam, applying the same methods used on the Bible and other ancient documents to the Quran, Hadith, and early Islamic biography. W. Montgomery Watt's *Muhammad at Mecca* (1953) and *Muhammad at Medina* (1956) established a landmark of sympathetic but rigorous historical analysis. Maxime Rodinson's *Mohammed* (1961) offered a Marxist-inflected reading that positioned Muhammad as a social revolutionary responding to the economic contradictions of Meccan mercantile society. Patricia Crone and Michael Cook's *Hagarism* (1977) took a more revisionist approach, questioning the reliability of the traditional Islamic sources themselves.
+
+Karen Armstrong's *Muhammad: A Prophet for Our Time* (2006) and Martin Lings's *Muhammad: His Life Based on the Earliest Sources* (1983) represent a more sympathetic engagement, with Armstrong arguing that Muhammad's message and methods need to be understood in their historical context and that contemporary Islamophobia often rests on fundamental misreadings of both the Quran and Muhammad's biography.
+
+Islamic scholarship approaches Muhammad from a different methodological position: for Muslim scholars, Muhammad's prophethood is a given, and the task is to understand the meaning and application of his message rather than to verify it historically. The rich tradition of Islamic sira (biography), Hadith science, and Quranic commentary represents centuries of sophisticated engagement with the primary sources.
+
+The debate about Muhammad's legacy continues in the contemporary period, shaped by geopolitical tensions, debates about Islam's relationship to modernity, and the appropriation of his image and words by both violent extremists and peaceful reformers. Understanding the historical Muhammad — as distinguished from both romanticized hagiography and polemical caricature — remains one of the most important tasks in contemporary religious studies.
+
+---
+
 ## Timeline
 
 | Year | Event |
@@ -229,6 +243,50 @@ Muhammad's relations with the Jewish tribes of Medina deteriorated as his politi
 | 631 CE | Year of Delegations: tribes across Arabia pledge allegiance |
 | 632 CE | Farewell Pilgrimage; Farewell Sermon at Mount Arafat |
 | 632 CE | Death in Medina on June 8; buried in Aisha's chamber |
+
+---
+
+## Muhammad and Women
+
+Perhaps no aspect of Muhammad's life and teaching has generated more sustained controversy in the modern period than questions about his treatment of and teachings about women. The complexity here is genuine and resists simple characterization in either direction.
+
+In the context of seventh-century Arabia, Muhammad's teachings represented significant advances in women's legal and social standing. The Quran granted women the right to own property, to inherit (receiving half the share of a male heir, but previously receiving nothing), to initiate divorce, to retain their own property in marriage rather than having it absorbed by their husband's household, and to give testimony (with certain limitations). The prohibition of female infanticide — a practice documented in pre-Islamic Arabia — was a clear moral advance. These legal changes represented a recognition of women's full personhood in ways that were not universal in the ancient world.
+
+Muhammad's personal relationships with women were characterized by those who knew him as unusually respectful and affectionate. He reportedly helped with household tasks — sewing, cooking, cleaning — to a degree unusual for men of his culture and status. He consulted Khadijah on matters of spiritual importance. He sought Aisha's counsel and respected her judgment. He spoke of Khadijah, after her death, with such frequent and warm remembrance that Aisha reportedly felt jealous of a woman who had been dead for years.
+
+At the same time, several aspects of Muhammad's practice have been the subject of intense modern scrutiny and debate: polygamy (up to four wives permitted for ordinary Muslim men, while Muhammad had more); the marriage to Aisha, whom traditional sources describe as six at betrothal and nine at consummation (though some modern Muslim scholars dispute these ages); and Quranic verses that authorize male authority over women in the household under certain conditions. Modern Muslim feminists have argued that these aspects of the tradition need to be understood in historical context and that the core Quranic principles of human equality and dignity should be read as normative rather than the more contextually specific regulations.
+
+---
+
+## The Quran: Muhammad's Primary Legacy
+
+The Quran — the 114-chapter book that Muhammad recited over twenty-three years of prophetic mission — is, for Muslims, the most significant object in existence: the literal word of God, conveyed verbatim through the archangel Gabriel to the Prophet, preserved exactly as revealed, and constituting the primary source of guidance for all of human life.
+
+For the academic study of religion and literature, the Quran is one of the most extraordinary texts ever produced. It is written in Arabic of extraordinary density and richness — allusive, rhythmic, and often deliberately multivalent in its meanings. The great Arabic literary tradition judges it untranslatable: any rendering into another language captures only approximations of its meaning and none of its sound. The practice of Quranic recitation (*tajwid*) constitutes one of the world's great musical-spiritual disciplines, with precise rules for pronunciation, breath, pause, and pitch that have been transmitted with extraordinary consistency across fourteen centuries.
+
+The Quran's contents range across devotion, law, narrative, ethical admonition, cosmology, and eschatology. It retells stories from the Hebrew Bible and the Christian Gospels, often from different angles, with different emphases, and sometimes with significant variations that Muslim tradition understands as corrections of earlier textual corruptions. It addresses Muhammad directly ("O Prophet..."), addresses the believers collectively, and sometimes addresses all of humanity. It is simultaneously a record of specific historical occasions — the occasion of each verse's revelation is the subject of an elaborate scholarly literature of "occasions of revelation" (asbab al-nuzul) — and a timeless guide applicable to all human situations.
+
+The preservation and transmission of the Quran is itself a remarkable historical phenomenon. Memorized by Muhammad and his companions from the moment of each revelation, formally compiled under the first three caliphs, standardized in a single orthographic tradition under Caliph Uthman, and preserved through fourteen centuries of both oral and written transmission with extraordinary fidelity — the Quran as recited today by any hafiz (one who has memorized the entire text) is, by all scholarly assessment, essentially identical to the text that was recited in seventh-century Medina.
+
+---
+
+## The Succession Crisis and Its Consequences
+
+Muhammad's death in 632 CE left one critical question unresolved: who would lead the Muslim community? Muhammad had not designated a clear successor, and two competing principles of leadership immediately emerged. One group — who would become the Sunni majority — favored the selection of a capable leader from among the senior companions, and chose Abu Bakr, Muhammad's closest friend and father-in-law. Another group — who would become the Shia minority — believed that leadership should pass to Ali ibn Abi Talib, Muhammad's cousin and son-in-law, arguing that Muhammad had designated Ali as his successor at an event known as Ghadir Khumm.
+
+The first four caliphs — Abu Bakr, Umar ibn al-Khattab, Uthman ibn Affan, and Ali ibn Abi Talib — are called the Rightly Guided Caliphs by the Sunni tradition. Their leadership spanned the period from 632 to 661 CE, during which Islam expanded dramatically into Persia, Syria, Egypt, and beyond. The assassination of Uthman (656 CE) and the subsequent civil war, culminating in the martyrdom of Ali (661 CE) and the tragedy of Karbala (680 CE) when Ali's son Husayn was killed with his companions, created the permanent Sunni-Shia divide that continues to shape Islamic civilization fourteen centuries later.
+
+These events — succession, civil war, martyrdom — did not represent a failure of Muhammad's mission from the perspective of traditional Islamic theology. They were understood as tests of the community's faith and as part of the divine plan. But they established patterns of political and theological conflict that would recur throughout Islamic history and that remain live questions in the contemporary Muslim world.
+
+---
+
+## Muhammad's Physical and Personal Description
+
+The Hadith literature preserves remarkably detailed descriptions of Muhammad's physical appearance and personal habits, reflecting the intense attention his companions paid to every aspect of his presence. He was described as of medium height — neither short nor tall — with broad shoulders and a strong, compact build. His face was described as luminous, with wide dark eyes that had naturally dark rims around the irises, giving his gaze unusual depth and expressiveness. His complexion was described as neither very fair nor very dark but of a warm olive tone. He had black hair that fell to his shoulders, a full beard that he trimmed, and a gap between his two front teeth that was considered beautiful.[^4]
+
+He walked with deliberate purpose, leaning forward slightly as though descending a slope. He smiled frequently and was described as habitually cheerful, though he rarely laughed with his mouth wide open — more typically with a slight smile that brightened his face. He was known for holding sustained eye contact in conversation, giving each interlocutor his complete attention. He was physically strong — he was challenged to wrestling matches on multiple occasions and was an accomplished horseman and swordsman — but equally known for his gentleness: he reportedly never struck a servant or a woman, and he recoiled from gratuitous cruelty to animals.
+
+His personal simplicity was legendary even in his own lifetime. He slept on a simple mat, ate simple food, and was often indistinguishable in dress from his companions. Foreign visitors to Medina who did not know him sometimes had difficulty identifying which of the assembled group was the Prophet until he was pointed out. This simplicity was not performance — it was consistent across all recorded contexts — and it became one of the most frequently cited aspects of his character by those who knew him.
 
 ---
 
