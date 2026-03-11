@@ -21,6 +21,14 @@ export function Footer() {
           className="flex items-center gap-4 text-sm text-muted-foreground"
         >
           <Link
+            href="https://historical.parallax.kr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
+          >
+            Historical Parallax
+          </Link>
+          <Link
             href="/terms-of-service"
             className="hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
           >
