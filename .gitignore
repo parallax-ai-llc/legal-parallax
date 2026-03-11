@@ -42,6 +42,9 @@ yarn-error.log*
 # legal parallax scripts (internal tools, not public)
 /scripts
 batch*.json
+gen_*.js
+generate_*.js
+mass_gen.js
 
 # typescript
 *.tsbuildinfo
