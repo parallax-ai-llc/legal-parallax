@@ -3,7 +3,7 @@ import { getCase, getAllCaseIds } from "@/lib/cases";
 import { SidebarToc } from "@/components/sidebar-toc";
 import { ArticleContent } from "@/components/article-content";
 
-const GITHUB_REPO = "https://github.com/parallax-ai-llc/historical-parallax";
+const GITHUB_REPO = "https://github.com/parallax-ai-llc/legal-parallax";
 
 export const revalidate = 0;
 
