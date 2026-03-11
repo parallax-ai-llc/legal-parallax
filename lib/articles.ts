@@ -37,8 +37,12 @@ export interface TocItem {
 const articlesDirectory = path.join(process.cwd(), "content/articles");
 
 function ensureDirectoryExists() {
-  if (!fs.existsSync(articlesDirectory)) {
-    fs.mkdirSync(articlesDirectory, { recursive: true });
+  try {
+    if (!fs.existsSync(articlesDirectory)) {
+      fs.mkdirSync(articlesDirectory, { recursive: true });
+    }
+  } catch {
+    // Read-only filesystem (e.g. Vercel) — directory doesn't exist, return gracefully
   }
 }
 

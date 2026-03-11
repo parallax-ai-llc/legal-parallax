@@ -13,12 +13,14 @@ export function MapMobileNav() {
   const pathname = usePathname()
   
   // Find current category name to display
-  const currentCategory = MAP_CATEGORIES.find(c => pathname === `/maps/${c.id}`)
+  const currentCategory = pathname === "/maps/legal-parallax"
+    ? { name: "Legal Parallax Map" }
+    : MAP_CATEGORIES.find(c => pathname === `/maps/${c.id}`)
 
   return (
     <div className="lg:hidden mb-6 border rounded-lg bg-background shadow-sm">
-      <Button 
-        variant="ghost" 
+      <Button
+        variant="ghost"
         className="w-full flex justify-between items-center px-4 py-3 h-auto hover:bg-transparent"
         onClick={() => setIsOpen(!isOpen)}
       >
@@ -32,6 +34,19 @@ export function MapMobileNav() {
       {isOpen && (
         <div className="border-t px-2 py-2 bg-muted/30">
           <div className="space-y-1">
+            <Link
+              href="/maps/legal-parallax"
+              onClick={() => setIsOpen(false)}
+              className={cn(
+                "flex items-center gap-2 rounded-md px-3 py-2 text-sm font-semibold transition-colors hover:bg-accent hover:text-accent-foreground",
+                pathname === "/maps/legal-parallax"
+                  ? "bg-accent text-accent-foreground"
+                  : "text-muted-foreground"
+              )}
+            >
+              Legal Parallax Map
+            </Link>
+            <div className="my-1 border-b" />
             {MAP_CATEGORIES.map((category) => (
               <Link
                 key={category.id}

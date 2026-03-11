@@ -15,6 +15,18 @@ export function MapSidebar() {
         <div className="mb-4 px-2">
           <h2 className="mb-2 px-2 text-lg font-semibold tracking-tight">Maps</h2>
           <div className="space-y-1">
+            <Link
+              href="/maps/legal-parallax"
+              className={cn(
+                "flex items-center gap-2 rounded-md px-2 py-1.5 text-sm font-semibold hover:underline",
+                pathname === "/maps/legal-parallax"
+                  ? "bg-accent text-accent-foreground"
+                  : "text-muted-foreground hover:bg-muted"
+              )}
+            >
+              Legal Parallax Map
+            </Link>
+            <div className="my-2 border-b" />
             {MAP_CATEGORIES.map((category) => (
               <Link
                 key={category.id}

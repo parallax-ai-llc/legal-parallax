@@ -5,7 +5,7 @@ import { ArticleContent } from "@/components/article-content";
 
 const GITHUB_REPO = "https://github.com/parallax-ai-llc/legal-parallax";
 
-export const revalidate = 0;
+export const dynamic = "force-static";
 
 interface CasePageProps {
   params: Promise<{ id: string }>;

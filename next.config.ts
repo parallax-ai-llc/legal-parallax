@@ -28,6 +28,13 @@ const nextConfig: NextConfig = {
     minimumCacheTTL: 31536000, // 1년
   },
 
+  // Ensure content files are bundled in serverless functions
+  outputFileTracingIncludes: {
+    "/c/[id]": ["./content/cases/**/*"],
+    "/c/[id]/opengraph-image-*": ["./content/cases/**/*"],
+    "/api/search": ["./content/cases/**/*"],
+  },
+
   // 정적 최적화
   experimental: {
     optimizePackageImports: ["lucide-react"],
