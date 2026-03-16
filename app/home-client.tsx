@@ -7,30 +7,24 @@ import { SearchDialog, SearchItem } from "@/components/search-dialog";
 import { RecentArticles } from "@/components/recent-articles";
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
-import { ArticleMeta } from "@/lib/articles";
 import { CaseMeta } from "@/lib/cases";
 import { createRandomStream, take } from "@/lib/lisp/utils";
 import Link from "next/link";
 
 interface HomeClientProps {
-  articles: ArticleMeta[];
   cases?: CaseMeta[];
 }
 
-export function HomeClient({ articles, cases = [] }: HomeClientProps) {
+export function HomeClient({ cases = [] }: HomeClientProps) {
   const [mounted, setMounted] = React.useState(false);
   const [searchOpen, setSearchOpen] = React.useState(false);
 
-  // Combine articles and cases for search
   const searchItems: SearchItem[] = [
-    ...articles,
     ...cases.map((c) => ({ ...c, type: "case" as const })),
   ];
-  const totalDocs = articles.length + cases.length;
+  const totalDocs = cases.length;
 
-  // Combine articles and cases for carousel, with type markers
   const allDocs = [
-    ...articles.map((a) => ({ ...a, type: "article" as const })),
     ...cases.map((c) => ({ ...c, type: "case" as const })),
   ];
   const stream = createRandomStream(allDocs);
@@ -75,7 +69,7 @@ export function HomeClient({ articles, cases = [] }: HomeClientProps) {
             onClick={() => setSearchOpen(true)}
           >
             <Search className="mr-3 h-5 w-5" />
-            <span>Search articles and cases...</span>
+            <span>Search cases...</span>
             <kbd className="pointer-events-none ml-auto hidden h-6 select-none items-center gap-1 rounded border bg-muted px-2 font-mono text-xs font-medium sm:flex">
               <span>Ctrl</span>K
             </kbd>

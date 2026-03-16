@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { useRouter } from "next/navigation";
-import { Search, Scale } from "lucide-react";
+import { Scale } from "lucide-react";
 import {
   CommandDialog,
   CommandEmpty,
@@ -17,7 +17,7 @@ export interface SearchItem {
   name: string;
   nationality?: string;
   summary?: string;
-  type?: "article" | "case";
+  type?: "case";
 }
 
 interface SearchDialogProps {
@@ -43,12 +43,8 @@ export function SearchDialog({ open, onOpenChange, items }: SearchDialogProps) {
       .slice(0, 15);
   }, [items, search]);
 
-  const articles = filteredItems.filter((item) => item.type !== "case");
-  const cases = filteredItems.filter((item) => item.type === "case");
-
   const handleSelect = (item: SearchItem) => {
-    const path = item.type === "case" ? `/c/${item.id}` : `/a/${item.id}`;
-    router.push(path);
+    router.push(`/c/${item.id}`);
     onOpenChange(false);
     setSearch("");
   };
@@ -70,32 +66,14 @@ export function SearchDialog({ open, onOpenChange, items }: SearchDialogProps) {
       open={open}
       onOpenChange={onOpenChange}
       title="Search"
-      description="Search for articles and legal cases"
+      description="Search legal cases"
     >
-      <CommandInput placeholder="Search articles and cases..." value={search} onValueChange={setSearch} />
+      <CommandInput placeholder="Search cases..." value={search} onValueChange={setSearch} />
       <CommandList>
         <CommandEmpty>No results found.</CommandEmpty>
-        {articles.length > 0 && (
-          <CommandGroup heading="Articles">
-            {articles.map((item) => (
-              <CommandItem
-                key={`article-${item.id}`}
-                value={`article-${item.id}`}
-                onSelect={() => handleSelect(item)}
-                className="cursor-pointer"
-              >
-                <Search className="mr-2 h-4 w-4" />
-                <span className="font-medium">{item.name}</span>
-                {item.nationality && (
-                  <span className="ml-auto text-xs text-muted-foreground">{item.nationality}</span>
-                )}
-              </CommandItem>
-            ))}
-          </CommandGroup>
-        )}
-        {cases.length > 0 && (
+        {filteredItems.length > 0 && (
           <CommandGroup heading="Legal Cases">
-            {cases.map((item) => (
+            {filteredItems.map((item) => (
               <CommandItem
                 key={`case-${item.id}`}
                 value={`case-${item.id}`}
