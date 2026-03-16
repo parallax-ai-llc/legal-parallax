@@ -5,16 +5,15 @@ import { ArticleContent } from "@/components/article-content";
 
 const GITHUB_REPO = "https://github.com/parallax-ai-llc/legal-parallax";
 
-export const dynamic = "force-static";
-export const dynamicParams = false;
+export const dynamicParams = true;
+export const revalidate = 3600;
 
 interface ArticlePageProps {
   params: Promise<{ id: string }>;
 }
 
 export async function generateStaticParams() {
-  const ids = getAllArticleIds();
-  return ids.map((id) => ({ id }));
+  return [];
 }
 
 export async function generateMetadata({ params }: ArticlePageProps) {

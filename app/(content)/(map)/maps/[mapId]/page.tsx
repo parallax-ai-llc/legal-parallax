@@ -5,12 +5,11 @@ import { InteractiveMap } from "@/components/interactive-map";
 import { MapTimeline } from "@/components/map-ui/map-timeline";
 
 export async function generateStaticParams() {
-  return MAP_CATEGORIES.map((category) => ({
-    mapId: category.id,
-  }));
+  return [];
 }
 
-export const dynamicParams = false;
+export const dynamicParams = true;
+export const revalidate = 3600;
 
 interface MapPageProps {
   params: Promise<{ mapId: string }>;
