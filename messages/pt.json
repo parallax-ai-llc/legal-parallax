@@ -1,0 +1,35 @@
+{
+  "common": {
+    "siteName": "Legal Parallax",
+    "tagline": "Cada perspectiva cria uma paralaxe",
+    "searchPlaceholder": "Pesquisar casos...",
+    "contribute": "Contribuir",
+    "documentsArchived": "{count} documentos arquivados",
+    "editOnGithub": "Editar esta página no GitHub",
+    "backToHome": "Voltar ao início",
+    "pageNotFound": "Página não encontrada",
+    "noResults": "Nenhum resultado encontrado.",
+    "legalCases": "Casos jurídicos",
+    "skipToContent": "Pular para o conteúdo principal",
+    "notTranslated": "Este artigo ainda não está disponível no seu idioma. Exibindo a versão em inglês."
+  },
+  "footer": {
+    "poweredBy": "Desenvolvido por",
+    "historicalParallax": "Historical Parallax",
+    "termsOfService": "Termos de serviço",
+    "privacyPolicy": "Política de privacidade"
+  },
+  "search": {
+    "title": "Pesquisar",
+    "description": "Pesquisar casos jurídicos",
+    "placeholder": "Pesquisar casos..."
+  },
+  "map": {
+    "title": "Mapa do Legal Parallax",
+    "selectTopic": "Selecionar um tópico",
+    "legend": "Legenda",
+    "zoomIn": "Ampliar",
+    "zoomOut": "Reduzir",
+    "resetZoom": "Redefinir zoom"
+  }
+}

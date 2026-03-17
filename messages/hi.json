@@ -1,0 +1,35 @@
+{
+  "common": {
+    "siteName": "Legal Parallax",
+    "tagline": "हर दृष्टिकोण एक लंबन बनाता है",
+    "searchPlaceholder": "मामले खोजें...",
+    "contribute": "योगदान करें",
+    "documentsArchived": "{count} दस्तावेज़ संग्रहीत",
+    "editOnGithub": "इस पृष्ठ को GitHub पर संपादित करें",
+    "backToHome": "होम पर वापस जाएं",
+    "pageNotFound": "पृष्ठ नहीं मिला",
+    "noResults": "कोई परिणाम नहीं मिला।",
+    "legalCases": "कानूनी मामले",
+    "skipToContent": "मुख्य सामग्री पर जाएं",
+    "notTranslated": "यह लेख अभी आपकी भाषा में उपलब्ध नहीं है। अंग्रेज़ी संस्करण दिखाया जा रहा है।"
+  },
+  "footer": {
+    "poweredBy": "द्वारा संचालित",
+    "historicalParallax": "Historical Parallax",
+    "termsOfService": "सेवा की शर्तें",
+    "privacyPolicy": "गोपनीयता नीति"
+  },
+  "search": {
+    "title": "खोजें",
+    "description": "कानूनी मामले खोजें",
+    "placeholder": "मामले खोजें..."
+  },
+  "map": {
+    "title": "Legal Parallax मानचित्र",
+    "selectTopic": "एक विषय चुनें",
+    "legend": "सूचक",
+    "zoomIn": "ज़ूम इन",
+    "zoomOut": "ज़ूम आउट",
+    "resetZoom": "ज़ूम रीसेट करें"
+  }
+}

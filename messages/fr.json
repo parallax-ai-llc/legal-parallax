@@ -1,0 +1,35 @@
+{
+  "common": {
+    "siteName": "Legal Parallax",
+    "tagline": "Chaque perspective crée une parallaxe",
+    "searchPlaceholder": "Rechercher des affaires...",
+    "contribute": "Contribuer",
+    "documentsArchived": "{count} documents archivés",
+    "editOnGithub": "Modifier cette page sur GitHub",
+    "backToHome": "Retour à l'accueil",
+    "pageNotFound": "Page introuvable",
+    "noResults": "Aucun résultat trouvé.",
+    "legalCases": "Affaires juridiques",
+    "skipToContent": "Passer au contenu principal",
+    "notTranslated": "Cet article n'est pas encore disponible dans votre langue. La version anglaise est affichée."
+  },
+  "footer": {
+    "poweredBy": "Propulsé par",
+    "historicalParallax": "Historical Parallax",
+    "termsOfService": "Conditions d'utilisation",
+    "privacyPolicy": "Politique de confidentialité"
+  },
+  "search": {
+    "title": "Rechercher",
+    "description": "Rechercher des affaires juridiques",
+    "placeholder": "Rechercher des affaires..."
+  },
+  "map": {
+    "title": "Carte Legal Parallax",
+    "selectTopic": "Sélectionner un sujet",
+    "legend": "Légende",
+    "zoomIn": "Agrandir",
+    "zoomOut": "Réduire",
+    "resetZoom": "Réinitialiser le zoom"
+  }
+}

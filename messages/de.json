@@ -1,0 +1,35 @@
+{
+  "common": {
+    "siteName": "Legal Parallax",
+    "tagline": "Jede Perspektive erzeugt eine Parallaxe",
+    "searchPlaceholder": "Fälle suchen...",
+    "contribute": "Beitragen",
+    "documentsArchived": "{count} Dokumente archiviert",
+    "editOnGithub": "Diese Seite auf GitHub bearbeiten",
+    "backToHome": "Zurück zur Startseite",
+    "pageNotFound": "Seite nicht gefunden",
+    "noResults": "Keine Ergebnisse gefunden.",
+    "legalCases": "Rechtsfälle",
+    "skipToContent": "Zum Hauptinhalt springen",
+    "notTranslated": "Dieser Artikel ist noch nicht in Ihrer Sprache verfügbar. Die englische Version wird angezeigt."
+  },
+  "footer": {
+    "poweredBy": "Betrieben von",
+    "historicalParallax": "Historical Parallax",
+    "termsOfService": "Nutzungsbedingungen",
+    "privacyPolicy": "Datenschutzrichtlinie"
+  },
+  "search": {
+    "title": "Suche",
+    "description": "Rechtsfälle suchen",
+    "placeholder": "Fälle suchen..."
+  },
+  "map": {
+    "title": "Legal Parallax Karte",
+    "selectTopic": "Thema auswählen",
+    "legend": "Legende",
+    "zoomIn": "Vergrößern",
+    "zoomOut": "Verkleinern",
+    "resetZoom": "Zoom zurücksetzen"
+  }
+}

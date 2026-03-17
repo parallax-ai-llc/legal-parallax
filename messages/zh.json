@@ -1,0 +1,35 @@
+{
+  "common": {
+    "siteName": "Legal Parallax",
+    "tagline": "每一个视角都创造一种视差",
+    "searchPlaceholder": "搜索案例...",
+    "contribute": "贡献",
+    "documentsArchived": "已归档 {count} 份文件",
+    "editOnGithub": "在 GitHub 上编辑此页面",
+    "backToHome": "返回首页",
+    "pageNotFound": "页面未找到",
+    "noResults": "未找到结果。",
+    "legalCases": "法律案例",
+    "skipToContent": "跳转到主要内容",
+    "notTranslated": "本文尚未提供您所使用语言的版本，当前显示的是英文版。"
+  },
+  "footer": {
+    "poweredBy": "技术支持",
+    "historicalParallax": "Historical Parallax",
+    "termsOfService": "服务条款",
+    "privacyPolicy": "隐私政策"
+  },
+  "search": {
+    "title": "搜索",
+    "description": "搜索法律案例",
+    "placeholder": "搜索案例..."
+  },
+  "map": {
+    "title": "Legal Parallax 地图",
+    "selectTopic": "选择主题",
+    "legend": "图例",
+    "zoomIn": "放大",
+    "zoomOut": "缩小",
+    "resetZoom": "重置缩放"
+  }
+}

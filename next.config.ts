@@ -1,4 +1,7 @@
 import type { NextConfig } from "next";
+import createNextIntlPlugin from 'next-intl/plugin';
+
+const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
 const nextConfig: NextConfig = {
   // Core Web Vitals 최적화
@@ -30,6 +33,8 @@ const nextConfig: NextConfig = {
 
   // Ensure content files are bundled in serverless functions
   outputFileTracingIncludes: {
+    "/[locale]/c/[id]": ["./content/cases/**/*"],
+    "/[locale]/c/[id]/opengraph-image-*": ["./content/cases/**/*"],
     "/c/[id]": ["./content/cases/**/*"],
     "/c/[id]/opengraph-image-*": ["./content/cases/**/*"],
     "/api/search": ["./content/cases/**/*"],
@@ -65,4 +70,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);

@@ -1,0 +1,35 @@
+{
+  "common": {
+    "siteName": "Legal Parallax",
+    "tagline": "すべての視点が視差を生む",
+    "searchPlaceholder": "判例を検索...",
+    "contribute": "貢献する",
+    "documentsArchived": "{count} 件のドキュメントを収録",
+    "editOnGithub": "GitHub でこのページを編集",
+    "backToHome": "ホームに戻る",
+    "pageNotFound": "ページが見つかりません",
+    "noResults": "結果が見つかりませんでした。",
+    "legalCases": "法律事件",
+    "skipToContent": "メインコンテンツへスキップ",
+    "notTranslated": "この記事はまだお使いの言語では提供されていません。英語版を表示しています。"
+  },
+  "footer": {
+    "poweredBy": "提供",
+    "historicalParallax": "Historical Parallax",
+    "termsOfService": "利用規約",
+    "privacyPolicy": "プライバシーポリシー"
+  },
+  "search": {
+    "title": "検索",
+    "description": "法律事件を検索",
+    "placeholder": "判例を検索..."
+  },
+  "map": {
+    "title": "Legal Parallax マップ",
+    "selectTopic": "トピックを選択",
+    "legend": "凡例",
+    "zoomIn": "拡大",
+    "zoomOut": "縮小",
+    "resetZoom": "ズームをリセット"
+  }
+}

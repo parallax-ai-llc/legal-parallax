@@ -1,0 +1,35 @@
+{
+  "common": {
+    "siteName": "Legal Parallax",
+    "tagline": "كل منظور يخلق اختلاف المنظر",
+    "searchPlaceholder": "البحث في القضايا...",
+    "contribute": "المساهمة",
+    "documentsArchived": "تم أرشفة {count} وثيقة",
+    "editOnGithub": "تعديل هذه الصفحة على GitHub",
+    "backToHome": "العودة إلى الصفحة الرئيسية",
+    "pageNotFound": "الصفحة غير موجودة",
+    "noResults": "لم يتم العثور على نتائج.",
+    "legalCases": "القضايا القانونية",
+    "skipToContent": "تخطي إلى المحتوى الرئيسي",
+    "notTranslated": "هذه المقالة غير متوفرة بلغتك بعد. يتم عرض النسخة الإنجليزية."
+  },
+  "footer": {
+    "poweredBy": "مدعوم من",
+    "historicalParallax": "Historical Parallax",
+    "termsOfService": "شروط الخدمة",
+    "privacyPolicy": "سياسة الخصوصية"
+  },
+  "search": {
+    "title": "بحث",
+    "description": "البحث في القضايا القانونية",
+    "placeholder": "البحث في القضايا..."
+  },
+  "map": {
+    "title": "خريطة Legal Parallax",
+    "selectTopic": "اختر موضوعًا",
+    "legend": "وسيلة الإيضاح",
+    "zoomIn": "تكبير",
+    "zoomOut": "تصغير",
+    "resetZoom": "إعادة تعيين التكبير"
+  }
+}

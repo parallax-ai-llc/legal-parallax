@@ -1,0 +1,35 @@
+{
+  "common": {
+    "siteName": "Legal Parallax",
+    "tagline": "모든 관점은 시차를 만든다",
+    "searchPlaceholder": "판례 검색...",
+    "contribute": "기여하기",
+    "documentsArchived": "{count}개의 문서가 보관됨",
+    "editOnGithub": "GitHub에서 이 페이지 편집",
+    "backToHome": "홈으로 돌아가기",
+    "pageNotFound": "페이지를 찾을 수 없습니다",
+    "noResults": "검색 결과가 없습니다.",
+    "legalCases": "법률 사건",
+    "skipToContent": "본문으로 건너뛰기",
+    "notTranslated": "이 문서는 아직 한국어로 제공되지 않습니다. 영어 버전을 표시합니다."
+  },
+  "footer": {
+    "poweredBy": "제공",
+    "historicalParallax": "Historical Parallax",
+    "termsOfService": "이용약관",
+    "privacyPolicy": "개인정보처리방침"
+  },
+  "search": {
+    "title": "검색",
+    "description": "법률 사건 검색",
+    "placeholder": "판례 검색..."
+  },
+  "map": {
+    "title": "Legal Parallax 지도",
+    "selectTopic": "주제 선택",
+    "legend": "범례",
+    "zoomIn": "확대",
+    "zoomOut": "축소",
+    "resetZoom": "확대/축소 초기화"
+  }
+}
