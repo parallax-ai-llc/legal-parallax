@@ -18,6 +18,7 @@ export interface CaseMeta {
     official?: string;
   };
   lastUpdated?: string;
+  fallback?: boolean;
 }
 
 export interface Case {
@@ -32,37 +33,58 @@ export interface TocItem {
   level: number;
 }
 
-const casesDirectory = path.join(process.cwd(), "content/cases");
+const contentBase = path.join(process.cwd(), "content/cases");
 
-function ensureDirectoryExists() {
+function getCasesDirectory(locale: string = "en"): string {
+  return path.join(contentBase, locale);
+}
+
+function ensureDirectoryExists(dir: string) {
   try {
-    if (!fs.existsSync(casesDirectory)) {
-      fs.mkdirSync(casesDirectory, { recursive: true });
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
     }
   } catch {
-    // Read-only filesystem (e.g. Vercel) — directory doesn't exist, return gracefully
+    // Read-only filesystem (e.g. Vercel)
   }
 }
 
-export function getAllCaseIds(): string[] {
-  ensureDirectoryExists();
+export function getAllCaseIds(locale: string = "en"): string[] {
+  const dir = getCasesDirectory(locale);
+  ensureDirectoryExists(dir);
 
   try {
-    const fileNames = fs.readdirSync(casesDirectory);
+    const fileNames = fs.readdirSync(dir);
     return fileNames
       .filter((fileName) => fileName.endsWith(".md"))
       .map((fileName) => fileName.replace(/\.md$/, ""));
   } catch {
+    // If locale directory doesn't exist, fall back to English
+    if (locale !== "en") {
+      return getAllCaseIds("en");
+    }
     return [];
   }
 }
 
-export function getAllCases(): CaseMeta[] {
-  const ids = getAllCaseIds();
+export function getAllCases(locale: string = "en"): CaseMeta[] {
+  // Always use English IDs as the master list
+  const ids = getAllCaseIds("en");
+  const localeDir = getCasesDirectory(locale);
+  const enDir = getCasesDirectory("en");
+
   const cases = ids
     .map((id) => {
       try {
-        const fullPath = path.join(casesDirectory, `${id}.md`);
+        // Try locale-specific file first, fall back to English
+        let fullPath = path.join(localeDir, `${id}.md`);
+        let fallback = false;
+
+        if (locale !== "en" && !fs.existsSync(fullPath)) {
+          fullPath = path.join(enDir, `${id}.md`);
+          fallback = true;
+        }
+
         const fileContents = fs.readFileSync(fullPath, "utf8");
         const { data } = matter(fileContents);
 
@@ -75,6 +97,7 @@ export function getAllCases(): CaseMeta[] {
           image: data.image,
           socialLinks: data.socialLinks,
           lastUpdated: data.lastUpdated,
+          fallback,
         } as CaseMeta;
       } catch {
         return null;
@@ -107,11 +130,19 @@ function extractToc(content: string): TocItem[] {
   return toc;
 }
 
-export async function getCase(id: string): Promise<Case | null> {
-  ensureDirectoryExists();
+export async function getCase(id: string, locale: string = "en"): Promise<Case | null> {
+  const localeDir = getCasesDirectory(locale);
+  const enDir = getCasesDirectory("en");
 
   try {
-    const fullPath = path.join(casesDirectory, `${id}.md`);
+    let fullPath = path.join(localeDir, `${id}.md`);
+    let fallback = false;
+
+    if (locale !== "en" && !fs.existsSync(fullPath)) {
+      fullPath = path.join(enDir, `${id}.md`);
+      fallback = true;
+    }
+
     const fileContents = fs.readFileSync(fullPath, "utf8");
     const { data, content } = matter(fileContents);
 
@@ -145,6 +176,7 @@ export async function getCase(id: string): Promise<Case | null> {
       image: data.image,
       socialLinks: data.socialLinks,
       lastUpdated: data.lastUpdated,
+      fallback,
     };
 
     return {
@@ -157,6 +189,6 @@ export async function getCase(id: string): Promise<Case | null> {
   }
 }
 
-export function getCaseSearchIndex(): CaseMeta[] {
-  return getAllCases();
+export function getCaseSearchIndex(locale: string = "en"): CaseMeta[] {
+  return getAllCases(locale);
 }
