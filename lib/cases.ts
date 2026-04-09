@@ -192,3 +192,23 @@ export async function getCase(id: string, locale: string = "en"): Promise<Case |
 export function getCaseSearchIndex(locale: string = "en"): CaseMeta[] {
   return getAllCases(locale);
 }
+
+export function getLocaleCoverage(): Record<string, number> {
+  const locales = ["en", "ko", "zh", "es", "fr", "de", "ja", "pt", "ar", "hi"];
+  const coverage: Record<string, number> = {};
+  for (const locale of locales) {
+    try {
+      const dir = getCasesDirectory(locale);
+      if (!fs.existsSync(dir)) {
+        coverage[locale] = 0;
+        continue;
+      }
+      coverage[locale] = fs
+        .readdirSync(dir)
+        .filter((f) => f.endsWith(".md")).length;
+    } catch {
+      coverage[locale] = 0;
+    }
+  }
+  return coverage;
+}

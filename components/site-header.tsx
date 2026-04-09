@@ -10,9 +10,10 @@ import { Button } from "@/components/ui/button";
 
 interface SiteHeaderProps {
   onSearchClick: () => void;
+  localeCoverage?: Record<string, number>;
 }
 
-export function SiteHeader({ onSearchClick }: SiteHeaderProps) {
+export function SiteHeader({ onSearchClick, localeCoverage }: SiteHeaderProps) {
   const pathname = usePathname();
   return (
     <header
@@ -69,7 +70,7 @@ export function SiteHeader({ onSearchClick }: SiteHeaderProps) {
               <span className="sr-only sm:not-sr-only">Contribute</span>
             </Link>
           )}
-          <LanguageSwitcher />
+          <LanguageSwitcher coverage={localeCoverage} />
           <ThemeToggle />
         </nav>
       </div>

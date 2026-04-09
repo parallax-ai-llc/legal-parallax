@@ -7,10 +7,11 @@ import { Footer } from "@/components/footer";
 
 interface SiteLayoutClientProps {
   searchIndex: SearchItem[];
+  localeCoverage?: Record<string, number>;
   children: React.ReactNode;
 }
 
-export function SiteLayoutClient({ searchIndex, children }: SiteLayoutClientProps) {
+export function SiteLayoutClient({ searchIndex, localeCoverage, children }: SiteLayoutClientProps) {
   const [mounted, setMounted] = React.useState(false);
   const [searchOpen, setSearchOpen] = React.useState(false);
 
@@ -20,7 +21,7 @@ export function SiteLayoutClient({ searchIndex, children }: SiteLayoutClientProp
 
   return (
     <div className="flex min-h-screen flex-col">
-      <SiteHeader onSearchClick={() => setSearchOpen(true)} />
+      <SiteHeader onSearchClick={() => setSearchOpen(true)} localeCoverage={localeCoverage} />
 
       <main className="flex-1">{children}</main>
 
