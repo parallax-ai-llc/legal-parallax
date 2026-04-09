@@ -3,6 +3,7 @@
 import * as React from "react";
 import { Search, GitPullRequest } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { LanguageSwitcher } from "@/components/language-switcher";
 import { SearchDialog, SearchItem } from "@/components/search-dialog";
 import { RecentArticles } from "@/components/recent-articles";
 import { Footer } from "@/components/footer";
@@ -44,6 +45,7 @@ export function HomeClient({ cases = [] }: HomeClientProps) {
           <GitPullRequest className="h-4 w-4" />
           Contribute
         </Link>
+        <LanguageSwitcher />
         <ThemeToggle />
       </header>
 

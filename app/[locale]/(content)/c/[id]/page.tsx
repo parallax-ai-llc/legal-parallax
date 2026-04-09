@@ -1,15 +1,14 @@
 import { notFound } from "next/navigation";
-import { getCase, getAllCaseIds } from "@/lib/cases";
+import { getCase } from "@/lib/cases";
 import { SidebarToc } from "@/components/sidebar-toc";
 import { ArticleContent } from "@/components/article-content";
 
 const GITHUB_REPO = "https://github.com/parallax-ai-llc/legal-parallax";
 
-export const dynamicParams = true;
-export const revalidate = 3600;
+export const dynamic = "force-dynamic";
 
 interface CasePageProps {
-  params: Promise<{ id: string }>;
+  params: Promise<{ locale: string; id: string }>;
 }
 
 export async function generateStaticParams() {
@@ -17,8 +16,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: CasePageProps) {
-  const { id } = await params;
-  const caseData = await getCase(id);
+  const { locale, id } = await params;
+  const caseData = await getCase(id, locale);
 
   if (!caseData) {
     return { title: "Not Found" };
@@ -36,8 +35,8 @@ export async function generateMetadata({ params }: CasePageProps) {
 }
 
 export default async function CasePage({ params }: CasePageProps) {
-  const { id } = await params;
-  const caseData = await getCase(id);
+  const { locale, id } = await params;
+  const caseData = await getCase(id, locale);
 
   if (!caseData) {
     notFound();
