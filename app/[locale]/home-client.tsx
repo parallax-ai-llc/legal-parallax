@@ -4,6 +4,7 @@ import * as React from "react";
 import { Search, GitPullRequest } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { LanguageSwitcher } from "@/components/language-switcher";
+import { useTranslations } from "next-intl";
 import { SearchDialog, SearchItem } from "@/components/search-dialog";
 import { RecentArticles } from "@/components/recent-articles";
 import { Footer } from "@/components/footer";
@@ -17,6 +18,8 @@ interface HomeClientProps {
 }
 
 export function HomeClient({ cases = [] }: HomeClientProps) {
+  const t = useTranslations("common");
+  const ft = useTranslations("footer");
   const [mounted, setMounted] = React.useState(false);
   const [searchOpen, setSearchOpen] = React.useState(false);
 
@@ -43,7 +46,7 @@ export function HomeClient({ cases = [] }: HomeClientProps) {
           className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 px-3"
         >
           <GitPullRequest className="h-4 w-4" />
-          Contribute
+          {t("contribute")}
         </Link>
         <LanguageSwitcher />
         <ThemeToggle />
@@ -56,11 +59,11 @@ export function HomeClient({ cases = [] }: HomeClientProps) {
               Legal Parallax
             </h1>
             <p className="text-muted-foreground text-sm md:text-base italic leading-relaxed">
-              &ldquo;Every perspective creates a parallax&rdquo;
+              &ldquo;{t("tagline")}&rdquo;
             </p>
             {totalDocs > 0 && (
               <p className="mt-2 text-xs text-muted-foreground/60">
-                {totalDocs.toLocaleString()} documents archived
+                {t("documentsArchived", { count: totalDocs.toLocaleString() })}
               </p>
             )}
           </div>
@@ -71,7 +74,7 @@ export function HomeClient({ cases = [] }: HomeClientProps) {
             onClick={() => setSearchOpen(true)}
           >
             <Search className="mr-3 h-5 w-5" />
-            <span>Search cases...</span>
+            <span>{t("searchPlaceholder")}</span>
             <kbd className="pointer-events-none ml-auto hidden h-6 select-none items-center gap-1 rounded border bg-muted px-2 font-mono text-xs font-medium sm:flex">
               <span>Ctrl</span>K
             </kbd>
