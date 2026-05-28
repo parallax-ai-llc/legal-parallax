@@ -6,6 +6,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import { DeferredGoogleFont } from '@/components/deferred-google-font';
 import "../globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -76,12 +77,10 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} suppressHydrationWarning>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
+        {/* Load Google Sans Flex without blocking first paint (see component). */}
+        <DeferredGoogleFont />
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-M5WB8XPRPT" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
           {`

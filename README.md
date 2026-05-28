@@ -23,8 +23,8 @@ This project is open-source and licensed under the MIT License. It is owned by P
 ```bash
 git clone https://github.com/parallax-ai-llc/legal-parallax.git
 cd legal-parallax
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 ## Content Structure
