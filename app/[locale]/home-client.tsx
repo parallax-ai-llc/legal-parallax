@@ -9,6 +9,7 @@ import { SearchDialog, SearchItem } from "@/components/search-dialog";
 import { RecentArticles } from "@/components/recent-articles";
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import { CaseMeta } from "@/lib/cases";
 import { createRandomStream, take } from "@/lib/lisp/utils";
 import Link from "next/link";
@@ -82,6 +83,29 @@ export function HomeClient({ cases = [] }: HomeClientProps) {
 
           <RecentArticles articles={randomArticles} />
         </div>
+
+        <a
+          href="https://parallax.kr/?utm_source=legal-parallax&utm_medium=cta&utm_campaign=go-to-parallax"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Go to Parallax — AI workspace (opens in new tab)"
+          className={cn(
+            "group my-12 inline-flex h-12 items-center gap-3 rounded-full border border-border bg-background pl-2.5 pr-5",
+            "text-base font-medium leading-none text-foreground shadow-sm",
+            "transition-all duration-200 focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50",
+            "hover:-translate-y-0.5 hover:bg-accent hover:shadow-md"
+          )}
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/parallax-mark.png"
+            alt=""
+            width={28}
+            height={28}
+            className="size-7 shrink-0 rounded-md transition-transform duration-300 group-hover:scale-110"
+          />
+          <span>Go to Parallax</span>
+        </a>
       </main>
 
       <Footer />

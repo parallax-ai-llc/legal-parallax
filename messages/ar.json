@@ -15,7 +15,10 @@
   },
   "footer": {
     "poweredBy": "مدعوم من",
-    "historicalParallax": "Historical Parallax",
+    "services": "الخدمات",
+    "wiki": "الويكي",
+    "documents": "المستندات",
+    "contribute": "المساهمة",
     "termsOfService": "شروط الخدمة",
     "privacyPolicy": "سياسة الخصوصية"
   },
