@@ -15,7 +15,10 @@
   },
   "footer": {
     "poweredBy": "Powered by",
-    "historicalParallax": "Historical Parallax",
+    "services": "Services",
+    "wiki": "Wiki",
+    "documents": "Documents",
+    "contribute": "Contribute",
     "termsOfService": "Terms of Service",
     "privacyPolicy": "Privacy Policy"
   },

@@ -15,7 +15,10 @@
   },
   "footer": {
     "poweredBy": "द्वारा संचालित",
-    "historicalParallax": "Historical Parallax",
+    "services": "सेवाएँ",
+    "wiki": "विकी",
+    "documents": "दस्तावेज़",
+    "contribute": "योगदान करें",
     "termsOfService": "सेवा की शर्तें",
     "privacyPolicy": "गोपनीयता नीति"
   },

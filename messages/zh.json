@@ -15,7 +15,10 @@
   },
   "footer": {
     "poweredBy": "技术支持",
-    "historicalParallax": "Historical Parallax",
+    "services": "服务",
+    "wiki": "百科",
+    "documents": "文档",
+    "contribute": "参与贡献",
     "termsOfService": "服务条款",
     "privacyPolicy": "隐私政策"
   },

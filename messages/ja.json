@@ -15,7 +15,10 @@
   },
   "footer": {
     "poweredBy": "提供",
-    "historicalParallax": "Historical Parallax",
+    "services": "サービス",
+    "wiki": "ウィキ",
+    "documents": "ドキュメント",
+    "contribute": "貢献する",
     "termsOfService": "利用規約",
     "privacyPolicy": "プライバシーポリシー"
   },
