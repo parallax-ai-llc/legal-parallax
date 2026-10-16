@@ -20,7 +20,12 @@
     "documents": "दस्तावेज़",
     "contribute": "योगदान करें",
     "termsOfService": "सेवा की शर्तें",
-    "privacyPolicy": "गोपनीयता नीति"
+    "privacyPolicy": "गोपनीयता नीति",
+    "footerAriaLabel": "साइट फुटर",
+    "navAriaLabel": "फुटर नेविगेशन",
+    "poweredByAriaLabel": "Parallax AI, LLC (नए टैब में खुलता है)",
+    "contact": "संपर्क करें",
+    "status": "सेवा स्थिति"
   },
   "search": {
     "title": "खोजें",
@@ -34,5 +39,11 @@
     "zoomIn": "ज़ूम इन",
     "zoomOut": "ज़ूम आउट",
     "resetZoom": "ज़ूम रीसेट करें"
+  },
+  "appBanner": {
+    "title": "Parallax ऐप",
+    "description": "ऐप में और आराम से पढ़ें",
+    "install": "इंस्टॉल करें",
+    "dismiss": "बंद करें"
   }
 }

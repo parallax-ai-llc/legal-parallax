@@ -20,7 +20,12 @@
     "documents": "المستندات",
     "contribute": "المساهمة",
     "termsOfService": "شروط الخدمة",
-    "privacyPolicy": "سياسة الخصوصية"
+    "privacyPolicy": "سياسة الخصوصية",
+    "footerAriaLabel": "تذييل الموقع",
+    "navAriaLabel": "تنقل التذييل",
+    "poweredByAriaLabel": "Parallax AI, LLC (يفتح في تبويب جديد)",
+    "contact": "اتصل بنا",
+    "status": "حالة الخدمة"
   },
   "search": {
     "title": "بحث",
@@ -34,5 +39,11 @@
     "zoomIn": "تكبير",
     "zoomOut": "تصغير",
     "resetZoom": "إعادة تعيين التكبير"
+  },
+  "appBanner": {
+    "title": "تطبيق Parallax",
+    "description": "اقرأ براحة أكبر في التطبيق",
+    "install": "تثبيت",
+    "dismiss": "إغلاق"
   }
 }

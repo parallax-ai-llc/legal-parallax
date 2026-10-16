@@ -20,7 +20,12 @@
     "documents": "文档",
     "contribute": "参与贡献",
     "termsOfService": "服务条款",
-    "privacyPolicy": "隐私政策"
+    "privacyPolicy": "隐私政策",
+    "footerAriaLabel": "网站页脚",
+    "navAriaLabel": "页脚导航",
+    "poweredByAriaLabel": "Parallax AI, LLC（在新标签页中打开）",
+    "contact": "联系我们",
+    "status": "服务状态"
   },
   "search": {
     "title": "搜索",
@@ -34,5 +39,11 @@
     "zoomIn": "放大",
     "zoomOut": "缩小",
     "resetZoom": "重置缩放"
+  },
+  "appBanner": {
+    "title": "Parallax 应用",
+    "description": "在应用中阅读更方便",
+    "install": "安装",
+    "dismiss": "关闭"
   }
 }

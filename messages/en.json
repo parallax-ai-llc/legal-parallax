@@ -20,7 +20,12 @@
     "documents": "Documents",
     "contribute": "Contribute",
     "termsOfService": "Terms of Service",
-    "privacyPolicy": "Privacy Policy"
+    "privacyPolicy": "Privacy Policy",
+    "footerAriaLabel": "Site footer",
+    "navAriaLabel": "Footer navigation",
+    "poweredByAriaLabel": "Parallax AI, LLC (opens in new tab)",
+    "contact": "Contact",
+    "status": "Service Status"
   },
   "search": {
     "title": "Search",
@@ -34,5 +39,11 @@
     "zoomIn": "Zoom in",
     "zoomOut": "Zoom out",
     "resetZoom": "Reset zoom"
+  },
+  "appBanner": {
+    "title": "Parallax App",
+    "description": "Read more comfortably in the app",
+    "install": "Install",
+    "dismiss": "Dismiss"
   }
 }

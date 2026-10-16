@@ -1,112 +1,134 @@
-import NextLink from "next/link";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 
-const SERVICES = [
-  { label: "Sites", href: "https://parallax.kr/sites" },
-  { label: "Iris", href: "https://iris.parallax.kr" },
+type FooterLink = {
+  href: string;
+  /** literal label (brand names) — takes precedence over labelKey */
+  label?: string;
+  /** i18n key (footer namespace) for translated labels */
+  labelKey?: string;
+  /** true for this site's own pages (rendered with locale-aware Link, same tab) */
+  internal?: boolean;
+};
+
+// Parallax 서비스 — parallax.kr 하단 서비스 섹션과 동일한 순서, 끝에 graygate 추가
+const SERVICE_LINKS: FooterLink[] = [
+  { label: "Sites", href: "https://sites.parallax.kr" },
+  { label: "Iris", href: "https://parallax.kr/iris/templates" },
   { label: "Soulmate", href: "https://soulmate.parallax.kr" },
   { label: "Storage", href: "https://storage.parallax.kr" },
   { label: "Docs", href: "https://docs.parallax.kr" },
   { label: "Forms", href: "https://forms.parallax.kr" },
+  { label: "Calendar", href: "https://calendar.parallax.kr" },
+  { label: "Slides", href: "https://slides.parallax.kr" },
+  { label: "Blog", href: "https://blog.parallax.kr" },
+  { label: "Launch", href: "https://launch.parallax.kr" },
+  { label: "Engage", href: "https://engage.parallax.kr" },
+  { label: "Downloader", href: "https://downloader.parallax.kr" },
   { label: "Cloud", href: "https://cloud.parallax.kr" },
   { label: "DEX", href: "https://dex.parallax.kr" },
+  { label: "Skills", href: "https://skills.parallax.kr" },
+  { label: "Links", href: "https://links.parallax.kr" },
   { label: "Playground", href: "https://playground.parallax.kr" },
-  { label: "graygate", href: "https://graygate.app" },
+  { label: "Graygate", href: "https://graygate.app" },
 ];
 
-const WIKIS = [
-  { label: "Law", href: "https://legal.parallax.kr" },
+const WIKI_LINKS: FooterLink[] = [
+  { label: "Law", href: "/", internal: true },
   { label: "Truth", href: "https://truth.parallax.kr" },
   { label: "History", href: "https://historical.parallax.kr" },
-  { label: "News", href: "https://news.parallax.kr" },
+  { label: "News", href: "https://pan.parallax.kr" },
   { label: "Orb", href: "https://orb.parallax.kr" },
 ];
 
-const DOCUMENTS = [
-  { key: "contribute", href: "/contribute" },
-  { key: "termsOfService", href: "/terms-of-service" },
-  { key: "privacyPolicy", href: "/privacy-policy" },
-] as const;
+const DOCUMENT_LINKS: FooterLink[] = [
+  { labelKey: "contribute", href: "/contribute", internal: true },
+  { labelKey: "termsOfService", href: "/terms-of-service", internal: true },
+  { labelKey: "privacyPolicy", href: "/privacy-policy", internal: true },
+  { labelKey: "contact", href: "https://cs.parallax.kr" },
+  { labelKey: "status", href: "https://status.parallax.kr" },
+];
 
-const linkClass =
-  "hover:text-foreground hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2";
-
-function ExternalLinks({ items }: { items: { label: string; href: string }[] }) {
-  return (
-    <ul className="space-y-2">
-      {items.map((item) => (
-        <li key={item.href}>
-          <NextLink
-            href={item.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={linkClass}
-            aria-label={`${item.label} (opens in new tab)`}
-          >
-            {item.label}
-          </NextLink>
-        </li>
-      ))}
-    </ul>
-  );
-}
+const linkClassName =
+  "rounded-sm hover:text-foreground hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2";
 
 export function Footer() {
   const t = useTranslations("footer");
 
+  const sections = [
+    { id: "services", title: t("services"), links: SERVICE_LINKS },
+    { id: "wiki", title: t("wiki"), links: WIKI_LINKS },
+    { id: "documents", title: t("documents"), links: DOCUMENT_LINKS },
+  ];
+
   return (
-    <footer className="border-t border-border/40 py-10" role="contentinfo" aria-label="Site footer">
-      <div className="container flex flex-col gap-8 md:flex-row md:justify-between">
-        <div className="space-y-3">
-          <NextLink
-            href="https://parallax.kr"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
-            aria-label="Parallax AI, LLC (opens in new tab)"
+    <footer
+      className="border-t border-border/40 py-10"
+      role="contentinfo"
+      aria-label={t("footerAriaLabel")}
+    >
+      <div className="container flex flex-col gap-10 md:flex-row md:justify-between">
+        <div className="flex flex-col gap-3">
+          <Link
+            href="/"
+            className="flex items-center gap-2 self-start rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/brand-mark.svg" alt="" width={24} height={24} className="h-6 w-6" />
-            Legal Parallax
-          </NextLink>
+            <span className="font-serif text-lg font-semibold">Legal Parallax</span>
+          </Link>
           <p className="text-sm text-muted-foreground">
             {t("poweredBy")}{" "}
-            <NextLink
+            <a
               href="https://parallax.kr"
               target="_blank"
               rel="noopener noreferrer"
-              className={`font-medium ${linkClass}`}
+              className="font-medium hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
+              aria-label={t("poweredByAriaLabel")}
             >
               Parallax AI, LLC
-            </NextLink>
+            </a>
           </p>
         </div>
-
         <nav
-          aria-label="Footer navigation"
-          className="grid grid-cols-2 gap-8 text-sm text-muted-foreground sm:grid-cols-3 md:gap-16"
+          aria-label={t("navAriaLabel")}
+          className="grid grid-cols-2 gap-8 text-sm sm:grid-cols-3 md:gap-16"
         >
-          <div>
-            <h2 className="mb-3 font-medium text-foreground">{t("services")}</h2>
-            <ExternalLinks items={SERVICES} />
-          </div>
-          <div>
-            <h2 className="mb-3 font-medium text-foreground">{t("wiki")}</h2>
-            <ExternalLinks items={WIKIS} />
-          </div>
-          <div>
-            <h2 className="mb-3 font-medium text-foreground">{t("documents")}</h2>
-            <ul className="space-y-2">
-              {DOCUMENTS.map((doc) => (
-                <li key={doc.href}>
-                  <Link href={doc.href} className={linkClass}>
-                    {t(doc.key)}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+          {sections.map((section) => (
+            <div
+              key={section.id}
+              className={section.id === "services" ? "col-span-2 sm:col-span-1" : undefined}
+            >
+              <h2 id={`footer-${section.id}`} className="mb-3 font-semibold text-foreground">
+                {section.title}
+              </h2>
+              <ul
+                aria-labelledby={`footer-${section.id}`}
+                className={
+                  section.id === "services"
+                    ? "grid grid-cols-2 gap-x-8 gap-y-2 text-muted-foreground"
+                    : "flex flex-col gap-2 text-muted-foreground"
+                }
+              >
+                {section.links.map((link) => {
+                  const label = link.label ?? t(link.labelKey!);
+                  return (
+                    <li key={link.href}>
+                      {link.internal ? (
+                        <Link href={link.href} className={linkClassName}>
+                          {label}
+                        </Link>
+                      ) : (
+                        <a href={link.href} target="_blank" rel="noopener noreferrer" className={linkClassName}>
+                          {label}
+                        </a>
+                      )}
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          ))}
         </nav>
       </div>
     </footer>

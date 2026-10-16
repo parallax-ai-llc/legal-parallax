@@ -7,6 +7,7 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { DeferredGoogleFont } from '@/components/deferred-google-font';
+import { AndroidAppBanner } from '@/components/android-app-banner';
 import "../globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -101,6 +102,7 @@ export default async function LocaleLayout({
             <div id="main-content" role="main" tabIndex={-1}>
               {children}
             </div>
+            <AndroidAppBanner />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>

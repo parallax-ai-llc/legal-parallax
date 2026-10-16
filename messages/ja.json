@@ -20,7 +20,12 @@
     "documents": "ドキュメント",
     "contribute": "貢献する",
     "termsOfService": "利用規約",
-    "privacyPolicy": "プライバシーポリシー"
+    "privacyPolicy": "プライバシーポリシー",
+    "footerAriaLabel": "サイトフッター",
+    "navAriaLabel": "フッターナビゲーション",
+    "poweredByAriaLabel": "Parallax AI, LLC（新しいタブで開く）",
+    "contact": "お問い合わせ",
+    "status": "サービス状況"
   },
   "search": {
     "title": "検索",
@@ -34,5 +39,11 @@
     "zoomIn": "拡大",
     "zoomOut": "縮小",
     "resetZoom": "ズームをリセット"
+  },
+  "appBanner": {
+    "title": "Parallax アプリ",
+    "description": "アプリでもっと快適に読めます",
+    "install": "インストール",
+    "dismiss": "閉じる"
   }
 }
