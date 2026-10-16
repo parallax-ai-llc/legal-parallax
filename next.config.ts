@@ -38,6 +38,10 @@ const nextConfig: NextConfig = {
     "/c/[id]": ["./content/cases/**/*"],
     "/c/[id]/opengraph-image-*": ["./content/cases/**/*"],
     "/api/search": ["./content/cases/**/*"],
+    // iOS app JSON (lib/app-api.ts)
+    "/api/app/[locale]/overview": ["./content/cases/**/*"],
+    "/api/app/[locale]/cases": ["./content/cases/**/*"],
+    "/api/app/[locale]/cases/[id]": ["./content/cases/**/*"],
   },
 
   // 정적 최적화
