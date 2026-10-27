@@ -1,48 +1,26 @@
 import { ImageResponse } from "next/og";
 import { getCase, getAllCaseIds } from "@/lib/cases";
+import { getOgFont } from "@/lib/og-font";
+import { routing } from "@/i18n/routing";
 
 export const alt = "Legal Parallax";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-// ISR: Revalidate every 24 hours (86400 seconds)
-export const revalidate = 86400;
+// Rendered at build time for every case (static export).
+export const dynamicParams = false;
 
-async function fetchWithTimeout(url: string, init: RequestInit = {}, timeoutMs = 3000) {
-  const controller = new AbortController();
-  const id = setTimeout(() => controller.abort(), timeoutMs);
-  try {
-    return await fetch(url, { ...init, signal: controller.signal });
-  } finally {
-    clearTimeout(id);
-  }
-}
-
+// Metadata image routes do not inherit the [locale] layout's params, so list both.
 export async function generateStaticParams() {
   const cases = getAllCaseIds();
-  return cases.map((id) => ({ id }));
+  return routing.locales.flatMap((locale) => cases.map((id) => ({ locale, id })));
 }
 
 export default async function Image({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const caseData = await getCase(id);
 
-  // Font load: best-effort only
-  let fontData: ArrayBuffer | null = null;
-  try {
-    const fontCss = await fetchWithTimeout(
-      "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap",
-      { headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" } },
-      3000
-    ).then((res) => res.text());
-
-    const fontUrl = fontCss.match(/src: url\(([^)]+)\)/)?.[1];
-    if (fontUrl) {
-      fontData = await fetchWithTimeout(fontUrl, {}, 3000).then((res) => res.arrayBuffer());
-    }
-  } catch {
-    fontData = null;
-  }
+  const font = await getOgFont();
 
   const title = caseData?.meta.name || "Legal Case";
   const nationality = caseData?.meta.nationality || "";
@@ -58,7 +36,7 @@ export default async function Image({ params }: { params: Promise<{ id: string }
         flexDirection: "column",
         backgroundColor: "#0a0a0a",
         padding: "60px 80px",
-        fontFamily: fontData ? "Cormorant Garamond" : "serif",
+        fontFamily: font.name,
       }}
     >
       <div
@@ -124,16 +102,7 @@ export default async function Image({ params }: { params: Promise<{ id: string }
     </div>,
     {
       ...size,
-      fonts: fontData
-        ? [
-            {
-              name: "Cormorant Garamond",
-              data: fontData,
-              style: "normal",
-              weight: 700,
-            },
-          ]
-        : [],
+      fonts: [font],
     }
   );
 }

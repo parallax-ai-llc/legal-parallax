@@ -1,0 +1,15 @@
+{
+  // Static export in ./out (`pnpm build`) plus a Worker that does locale routing
+  // (worker/index.js). Next's build files skip the Worker and come from assets directly.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "legal-parallax",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./out",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/*", "!/_next/*"]
+  }
+}

@@ -2,6 +2,8 @@ import { MetadataRoute } from "next";
 import { getAllCaseIds } from "@/lib/cases";
 import { routing } from "@/i18n/routing";
 
+export const dynamic = "force-static";
+
 const baseUrl = "https://historical.parallax.kr";
 
 type ChangeFrequency = NonNullable<MetadataRoute.Sitemap[number]["changeFrequency"]>;

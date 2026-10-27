@@ -3,74 +3,22 @@ import createNextIntlPlugin from 'next-intl/plugin';
 
 const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
+// Static export served as Cloudflare Workers static assets (wrangler.jsonc).
+// Cases only change on deploy, so every page is prerendered for every locale;
+// worker/index.js does the locale routing that middleware.ts used to do, and
+// response headers live in public/_headers.
 const nextConfig: NextConfig = {
-  // Core Web Vitals 최적화
-  compress: true,
+  output: "export",
   poweredByHeader: false,
 
-  // 이미지 최적화 설정
+  // No image optimizer in a static export: images load from Wikimedia as-is.
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "upload.wikimedia.org",
-        pathname: "/wikipedia/commons/**",
-      },
-      {
-        protocol: "https",
-        hostname: "commons.wikimedia.org",
-        pathname: "/**",
-      },
-    ],
-    // LCP 최적화: WebP/AVIF 포맷 사용
-    formats: ["image/avif", "image/webp"],
-    // CLS 방지: 이미지 크기 힌트
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-    // 이미지 로딩 최적화
-    minimumCacheTTL: 31536000, // 1년
-  },
-
-  // Ensure content files are bundled in serverless functions
-  outputFileTracingIncludes: {
-    "/[locale]/c/[id]": ["./content/cases/**/*"],
-    "/[locale]/c/[id]/opengraph-image-*": ["./content/cases/**/*"],
-    "/c/[id]": ["./content/cases/**/*"],
-    "/c/[id]/opengraph-image-*": ["./content/cases/**/*"],
-    "/api/search": ["./content/cases/**/*"],
-    // iOS app JSON (lib/app-api.ts)
-    "/api/app/[locale]/overview": ["./content/cases/**/*"],
-    "/api/app/[locale]/cases": ["./content/cases/**/*"],
-    "/api/app/[locale]/cases/[id]": ["./content/cases/**/*"],
+    unoptimized: true,
   },
 
   // 정적 최적화
   experimental: {
     optimizePackageImports: ["lucide-react"],
-  },
-
-  // 보안 및 성능 헤더
-  async headers() {
-    return [
-      {
-        source: "/:path*",
-        headers: [
-          // 보안 헤더
-          {
-            key: "X-DNS-Prefetch-Control",
-            value: "on",
-          },
-          {
-            key: "X-Content-Type-Options",
-            value: "nosniff",
-          },
-          {
-            key: "Referrer-Policy",
-            value: "strict-origin-when-cross-origin",
-          },
-        ],
-      },
-    ];
   },
 };
 

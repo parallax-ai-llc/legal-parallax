@@ -1,18 +1,20 @@
 import { notFound } from "next/navigation";
-import { getCase } from "@/lib/cases";
+import { getAllCaseIds, getCase } from "@/lib/cases";
 import { SidebarToc } from "@/components/sidebar-toc";
 import { ArticleContent } from "@/components/article-content";
 
 const GITHUB_REPO = "https://github.com/parallax-ai-llc/legal-parallax";
 
-export const dynamic = "force-dynamic";
+// Every case is prerendered for every locale at build time (static export on
+// Cloudflare assets). getCase() falls back to English when a translation is missing.
+export const dynamicParams = false;
 
 interface CasePageProps {
   params: Promise<{ locale: string; id: string }>;
 }
 
 export async function generateStaticParams() {
-  return [];
+  return getAllCaseIds().map((id) => ({ id }));
 }
 
 export async function generateMetadata({ params }: CasePageProps) {
