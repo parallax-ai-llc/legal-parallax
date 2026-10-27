@@ -36,6 +36,7 @@ function isStaticPath(pathname) {
   return (
     pathname.startsWith("/_next/") ||
     pathname.startsWith("/api/") ||
+    pathname === "/opengraph-image" ||
     /\.[a-z0-9]+$/i.test(pathname.split("/").pop() ?? "")
   );
 }
