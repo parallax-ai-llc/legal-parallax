@@ -52,3 +52,6 @@ mass_gen.js
 next-env.d.ts
 
 .vercel
+
+# wrangler
+/.wrangler/
