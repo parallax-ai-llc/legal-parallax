@@ -47,7 +47,7 @@ export default async function CasePage({ params }: CasePageProps) {
   const editUrl = `${GITHUB_REPO}/edit/main/content/cases/${caseData.meta.id}.md`;
 
   return (
-    <div className="flex flex-1 py-8 px-4 md:px-6 lg:pl-96 2xl:pl-0">
+    <div className="flex flex-1 py-8 px-4 md:px-6 lg:pl-0">
       <SidebarToc items={caseData.toc} articleTitle={caseData.meta.name} />
       <div className="mx-auto w-full max-w-4xl">
         <ArticleContent meta={caseData.meta} content={caseData.content} />
