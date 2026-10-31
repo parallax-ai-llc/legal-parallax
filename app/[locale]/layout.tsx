@@ -89,13 +89,13 @@ export default async function LocaleLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         {/* Load Google Sans Flex without blocking first paint (see component). */}
         <DeferredGoogleFont />
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-XNFLFVP0FY" strategy="afterInteractive" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-5SN32GV096" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-XNFLFVP0FY');
+            gtag('config', 'G-5SN32GV096');
           `}
         </Script>
       </head>
