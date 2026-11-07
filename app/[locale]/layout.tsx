@@ -1,22 +1,28 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Cormorant_Garamond } from "next/font/google";
+import { Instrument_Serif, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { DeferredGoogleFont } from '@/components/deferred-google-font';
+import { AsciiField } from "@/components/ascii/ascii-field";
 import { AndroidAppBanner } from '@/components/android-app-banner';
 import "../globals.css";
 
-const cormorant = Cormorant_Garamond({
+const instrumentSerif = Instrument_Serif({
   variable: "--font-serif",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  preload: true,
-  fallback: ["Times New Roman", "serif"],
-  adjustFontFallback: true,
+  weight: "400",
+  style: ["normal", "italic"],
+  fallback: ["Noto Serif KR", "Times New Roman", "serif"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-mono",
+  subsets: ["latin"],
+  fallback: ["ui-monospace", "Consolas", "monospace"],
 });
 
 export const metadata: Metadata = {
@@ -99,12 +105,13 @@ export default async function LocaleLayout({
           `}
         </Script>
       </head>
-      <body className={`${cormorant.variable} font-sans antialiased`}>
+      <body className={`${instrumentSerif.variable} ${geistMono.variable} font-sans antialiased`}>
         <a href="#main-content" className="skip-link">
           Skip to main content
         </a>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <NextIntlClientProvider messages={messages}>
+            <AsciiField />
             <div id="main-content" role="main" tabIndex={-1}>
               {children}
             </div>

@@ -17,7 +17,7 @@ export function SiteHeader({ onSearchClick, localeCoverage }: SiteHeaderProps) {
   const pathname = usePathname();
   return (
     <header
-      className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
+      className="sticky top-0 z-50 w-full border-b border-border bg-background"
       role="banner"
       suppressHydrationWarning
     >
@@ -27,7 +27,7 @@ export function SiteHeader({ onSearchClick, localeCoverage }: SiteHeaderProps) {
           className="flex items-center gap-2 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
           aria-label="Legal Parallax - Go to home page"
         >
-          <span className="font-serif text-xl md:text-2xl font-bold tracking-tight">
+          <span className="font-serif text-xl md:text-2xl tracking-[-0.02em]">
             Legal Parallax
           </span>
         </Link>
@@ -35,7 +35,7 @@ export function SiteHeader({ onSearchClick, localeCoverage }: SiteHeaderProps) {
         <nav aria-label="Main navigation" className="flex items-center gap-2">
           <Button
             variant="outline"
-            className="hidden h-9 w-64 justify-start px-3 text-sm text-muted-foreground md:flex"
+            className="hidden h-9 w-64 justify-start rounded-full border-input bg-transparent px-3.5 text-sm text-muted-foreground md:flex"
             onClick={onSearchClick}
             aria-label="Open search dialog. Press Ctrl+K to search."
             aria-haspopup="dialog"

@@ -114,7 +114,7 @@ export function ArticleContent({ meta, content }: ArticleContentProps) {
           Last updated: {meta.lastUpdated || "Unknown"}
         </p>
 
-        <h1 className="font-serif text-4xl md:text-5xl font-bold tracking-tight mb-4">
+        <h1 className="font-serif text-4xl md:text-5xl tracking-[-0.02em] mb-4">
           {meta.name}
         </h1>
 
@@ -176,7 +176,7 @@ export function ArticleContent({ meta, content }: ArticleContentProps) {
               <summary className="flex w-full items-center justify-between py-4 cursor-pointer list-none transition-colors hover:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 rounded-sm [&::-webkit-details-marker]:hidden">
                 <h2
                   id={section.id}
-                  className="font-serif text-[1.75rem] md:text-3xl font-bold tracking-tight"
+                  className="font-serif text-[1.75rem] md:text-3xl tracking-[-0.02em]"
                 >
                   {section.title}
                 </h2>
@@ -218,7 +218,7 @@ export function ArticleContent({ meta, content }: ArticleContentProps) {
       {meta.socialLinks && Object.keys(meta.socialLinks).length > 0 && (
         <>
           <div className="space-y-3 mt-8">
-            <h3 className="font-serif text-lg font-semibold">External Links</h3>
+            <h3 className="font-serif text-lg">External Links</h3>
             <div className="flex flex-wrap gap-4">
               {meta.socialLinks.wikipedia && (
                 <Link

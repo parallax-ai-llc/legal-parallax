@@ -55,6 +55,8 @@ export function getStanceLabel(topic: LegalTopic, stanceValue: number): string {
 
 // ISO 3166-1 numeric to alpha-3 mapping (for matching TopoJSON geo.id)
 const NUMERIC_TO_ALPHA3: Record<string, string> = {
+  "096": "BRN", "112": "BLR", "158": "TWN", "232": "ERI", "268": "GEO",
+  "438": "LIE", "470": "MLT", "492": "MCO",
   "004": "AFG", "008": "ALB", "012": "DZA", "024": "AGO", "032": "ARG",
   "036": "AUS", "040": "AUT", "050": "BGD", "056": "BEL", "068": "BOL",
   "076": "BRA", "100": "BGR", "104": "MMR", "116": "KHM", "120": "CMR",
@@ -86,6 +88,8 @@ const NUMERIC_TO_ALPHA3: Record<string, string> = {
 };
 
 const ALPHA3_TO_NAME: Record<string, string> = {
+  BLR: "Belarus", BRN: "Brunei", ERI: "Eritrea", GEO: "Georgia",
+  LIE: "Liechtenstein", MCO: "Monaco", MLT: "Malta", TWN: "Taiwan",
   AFG: "Afghanistan", ALB: "Albania", DZA: "Algeria", AGO: "Angola",
   ARG: "Argentina", AUS: "Australia", AUT: "Austria", BGD: "Bangladesh",
   BEL: "Belgium", BOL: "Bolivia", BRA: "Brazil", BGR: "Bulgaria",
