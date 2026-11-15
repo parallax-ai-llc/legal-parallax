@@ -13,5 +13,7 @@
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page",
     "run_worker_first": ["/*", "!/_next/*"]
-  }
+  },
+  // Bot gate refusals (worker/bot-gate.js) are logged with their network and user agent; see Workers Logs.
+  "observability": { "enabled": true }
 }

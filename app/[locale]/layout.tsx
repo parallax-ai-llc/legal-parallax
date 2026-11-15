@@ -95,7 +95,7 @@ export default async function LocaleLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-5SN32GV096');
+            gtag('config', 'G-5SN32GV096', { service: 'legal' });
           `}
         </Script>
       </head>

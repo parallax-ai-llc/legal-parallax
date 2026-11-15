@@ -5,6 +5,9 @@
 //   non-English match redirects to "/<locale>/...", English is served from /en/...
 // - visiting a prefixed path remembers the locale in NEXT_LOCALE
 // Static files (_next, api, anything with an extension) go straight to assets.
+// Page requests pass the bot gate (bot-gate.js) first.
+
+import { botGateReason, botGateResponse } from "./bot-gate.js";
 
 const LOCALES = ["en", "ko", "zh", "es", "fr", "de", "ja", "pt", "ar", "hi"];
 const DEFAULT_LOCALE = "en";
@@ -68,6 +71,9 @@ export default {
     const url = new URL(request.url);
     const { pathname } = url;
     if (isStaticPath(pathname)) return fromAssets(env, request);
+
+    const blocked = botGateReason(request);
+    if (blocked) return botGateResponse(request, blocked);
 
     const first = pathname.split("/")[1];
 
